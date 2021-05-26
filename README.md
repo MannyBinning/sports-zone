@@ -24,16 +24,3 @@
 # Testing
 # Credits
 # Acknowledgements
-
-
-
-
-
-
-# Data Structure, Views and Features
-# Wireframe
-# Deployment
-# Code Validation
-# Testing
-
-# Acknowledgement
