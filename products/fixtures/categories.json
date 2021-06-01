@@ -1,0 +1,50 @@
+[
+    {
+      "pk": 1,
+      "model": "products.category",
+      "fields": {
+        "name": "cricket_clothing",
+        "friendly_name": "Cricket Clothing"
+      }
+    },
+    {
+      "pk": 2,
+      "model": "products.category",
+      "fields": {
+        "name": "football_clothing",
+        "friendly_name": "Football Clothing"
+      }
+    },
+    {
+      "pk": 3,
+      "model": "products.category",
+      "fields": {
+        "name": "tennis_clothing",
+        "friendly_name": "Tennis Clothing"
+      }
+    },
+    {
+      "pk": 4,
+      "model": "products.category",
+      "fields": {
+        "name": "cricket_equipment",
+        "friendly_name": "Cricket Equipment"
+      }
+    },
+    {
+      "pk": 5,
+      "model": "products.category",
+      "fields": {
+        "name": "football_equipment",
+        "friendly_name": "Football Equipment"
+      }
+    },
+    {
+      "pk": 6,
+      "model": "products.category",
+      "fields": {
+        "name": "tennis_equipment",
+        "friendly_name": "Tennis Equipment"
+      }
+    }
+  ]

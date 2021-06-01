@@ -1,0 +1,44 @@
+[
+    {
+      "pk": 1,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp5001340155",
+        "name": "helmet",
+        "description": "Cricket helmet for batsmen, Weighs approximatley 940 Gms. including a new improved fixed grill for increased safety. Increased facial & side protection. Removable and washable sweatband. Confirms to Latest ICC/BS 2013 safety standards including the back extention for more safety.",
+        "price": 155.99,
+        "category": 4,
+        "rating": 4.6,
+        "image_url": "https://www.somersetcountysports.com/wp-content/uploads/2020/05/Armor-2.0-Navy.jpg",
+        "image": "helmet.jpg"
+      }
+    },
+    {
+        "pk": 2,
+        "model": "products.product",
+        "fields": {
+          "sku": "pp5001340156",
+          "name": "cricket_bat",
+          "description": "With an aggressive powerful profile and smouldering black graphics the Shadow is the ideal choice for the player who likes to make thing happen on the field. The addition of the new ‘Counterbalance’ handle enhances the ‘pick up’ to provide a bat which packs a heavyweight punch.",
+          "price": 99.99,
+          "category": 4,
+          "rating": 4.6,
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLw3BBOW6kZca8DpUAo7RAjDBq_E1wJZ02GAHjAiDXRNsQWMz80FuN_gRkSg&usqp=CAc",
+          "image": "bat.jpg"
+        }
+      },
+      {
+        "pk": 3,
+        "model": "products.product",
+        "fields": {
+          "sku": "pp5001340157",
+          "name": "football_top",
+          "description": "Puma short sleeve training top with dry cell technology, Printed branding. 100% polyester. Crew neck. Straight hem.",
+          "price": 99.99,
+          "category": 4,
+          "rating": 4.6,
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMCxURDF4yjBzCVB2yitYUD30tPNFC7X9TbL4EIMilRthyteSiSaMM8iCe8Dc&usqp=CAc",
+          "image": "football.jpg"
+        }
+      }
+  ]
