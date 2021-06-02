@@ -4,7 +4,7 @@
       "model": "products.product",
       "fields": {
         "sku": "pp5001340155",
-        "name": "helmet",
+        "name": "Helmet",
         "description": "Cricket helmet for batsmen, Weighs approximatley 940 Gms. including a new improved fixed grill for increased safety. Increased facial & side protection. Removable and washable sweatband. Confirms to Latest ICC/BS 2013 safety standards including the back extention for more safety.",
         "price": 155.99,
         "category": 4,
@@ -18,7 +18,7 @@
         "model": "products.product",
         "fields": {
           "sku": "pp5001340156",
-          "name": "cricket_bat",
+          "name": "Cricket Bat",
           "description": "With an aggressive powerful profile and smouldering black graphics the Shadow is the ideal choice for the player who likes to make thing happen on the field. The addition of the new ‘Counterbalance’ handle enhances the ‘pick up’ to provide a bat which packs a heavyweight punch.",
           "price": 99.99,
           "category": 4,
@@ -32,13 +32,111 @@
         "model": "products.product",
         "fields": {
           "sku": "pp5001340157",
-          "name": "football_top",
+          "name": "Cricket Top",
+          "description": "A fantastically strong shirt that will stand up to the rigours of the cricket season. The Matrix shirt is as breathable as possible, ensuring cricketers young and old will keep cool even in the hottest conditions. In the modern game, with players become increasingly athletic and moving more dynamically, it was crucial that all Gray Nicolls cricket shirts were ergonomically designed.",
+          "price": 29.99,
+          "category": 1,
+          "rating": 4.6,
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0QNRCvLwpJvzzz1p2olzeb_2LcEUWMKI6vIQRSYglesUkVwBK7nYKf7TadA&usqp=CAc",
+          "image": "cricket-top.jpg"
+        }
+      },
+      {
+        "pk": 4,
+        "model": "products.product",
+        "fields": {
+          "sku": "pp5001340158",
+          "name": "Cricket Bottom",
+          "description": "Professional quality garment. Moisture management and wicking materials with airflow to keep players cool. A supportive rib material which is used for the yoke and back panel of the leg give these trousers a modern, comfortable fit. Supplied with ivory trim only.",
+          "price": 34.99,
+          "category": 1,
+          "rating": 4.6,
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcFsCNwJ9nl-wZSfGsSVe0b3lBuqaYqcgbJtsSkGow4Pd8GZkI-Z2hnFucxD87hwhkGIcJJx8r&usqp=CAc",
+          "image": "cricket-bottom.jpg"
+        }
+      },
+      {
+        "pk": 5,
+        "model": "products.product",
+        "fields": {
+          "sku": "pp5001340159",
+          "name": "Cricket Cap",
+          "description": "Designed to fit all head sizes, we've made the Melton Cap with an elasticated headband that gives the user a secure and comfortable fit, giving you peace of mind when are diving for the ball.",
+          "price": 22.99,
+          "category": 1,
+          "rating": 4.6,
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnpN2fOu6W5xJkmQW8wtk-q9lO4IQVaYcWBY67ey1h5zKR0FHLhzPlaI3_iv-oGKpRu10&usqp=CAU",
+          "image": "cricket-cap.jpg"
+        }
+      },
+      {
+        "pk": 6,
+        "model": "products.product",
+        "fields": {
+          "sku": "pp5001340160",
+          "name": "Cricket Box",
+          "description": "Masuri Jockstrap with box is designed to hold the protective box to place under the whites and leave you to focus on more important things at the crease.",
+          "price": 4.99,
+          "category": 4,
+          "rating": 4.6,
+          "image_url": "https://www.prodirectcricket.com/productimages/Main/205498_Main_Thumb_0468313.jpg",
+          "image": "box.jpg"
+        }
+      },
+      {
+        "pk": 7,
+        "model": "products.product",
+        "fields": {
+          "sku": "pp5001340161",
+          "name": "Football Top",
           "description": "Puma short sleeve training top with dry cell technology, Printed branding. 100% polyester. Crew neck. Straight hem.",
           "price": 24.99,
           "category": 2,
           "rating": 4.6,
           "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMCxURDF4yjBzCVB2yitYUD30tPNFC7X9TbL4EIMilRthyteSiSaMM8iCe8Dc&usqp=CAc",
           "image": "football_top.jpg"
+        }
+      },
+      {
+        "pk": 8,
+        "model": "products.product",
+        "fields": {
+          "sku": "pp5001340162",
+          "name": "Football",
+          "description": "Emulate your heroes on the pitch with this Nike Strike Premier League Football which is ready for everyday play and features a high-contrast graphic design which allows you to track the the ball with ease. The ball has Nike Aerowtrac grooves which delivers an accurate ball flight right off the foot, whilst the textured casing helps enhance control and the balls 12-panels are machine stitched for long-lasting durability.",
+          "price": 39.99,
+          "category": 5,
+          "rating": 4.6,
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE7fHo_zkdZtMe26jiTXZ18K-aRxXMpE2l1s4lE9wvqdSZdmXwp9MZ4Goy7jYCq0IvuTnOLB6k&usqp=CAc",
+          "image": "football.jpg"
+        }
+      },
+      {
+        "pk": 9,
+        "model": "products.product",
+        "fields": {
+          "sku": "pp5001340163",
+          "name": "Tennis Racket",
+          "description": "The Ultra Power Pro 105 delivers a nice boost of power and stability for recreational tennis players. Innovative frame and shaft constructions create thicker geometries that help stabilize the frame during the swing, while its relatively light weight and midplus head find an impactful balance of comfort and forgiveness. Featuring design and performance inspired by the performance Ultra series, the Ultra Power Pro 105 caters to a wide variety of ages and styles.",
+          "price": 49.99,
+          "category": 6,
+          "rating": 4.6,
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSzShXGQOsBj5HwEMT8iitnnQK5kzgaBPv5eqyyOt6eTacQky3R9BsyyZ-y7wEDSAJh5voL7VN&usqp=CAc",
+          "image": "tennis-racket.jpg"
+        }
+      },
+      {
+        "pk": 10,
+        "model": "products.product",
+        "fields": {
+          "sku": "pp5001340164",
+          "name": "Tennis Top",
+          "description": "This Mens adidas Fab Polo Shirt has been crafted with Climalite technology that wick sweat away from the skin to keep you feeling dry teamed with a lightweight and breathable design along with a three button placket and short sleeves for a comfortable fit.",
+          "price": 24.99,
+          "category": 3,
+          "rating": 4.6,
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGH95mblwwnHVfTwYLmzBT9p6XxGw7iRnGzz6zVNL5oik0z6N3-mWQttvmkuxM-57sFEhLaSU&usqp=CAc",
+          "image": "tennis-top.jpg"
         }
       }
   ]
