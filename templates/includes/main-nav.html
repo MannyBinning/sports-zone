@@ -17,9 +17,9 @@
                 Cricket
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="" class="dropdown-item">Clothing</a>
-                <a href="" class="dropdown-item">Equipment</a>
-                <a href="" class="dropdown-item">All Cricket Products</a>
+                <a href="{% url 'products' %}?category=cricket_clothing" class="dropdown-item">Clothing</a>
+                <a href="{% url 'products' %}?category=cricket_equipment" class="dropdown-item">Equipment</a>
+                <a href="{% url 'products' %}?category=cricket_clothing,cricket_equipment" class="dropdown-item">All Cricket Products</a>
             </div>
         </li>
 
@@ -28,9 +28,9 @@
                 Football
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="" class="dropdown-item">Clothing</a>
-                <a href="" class="dropdown-item">Equipment</a>
-                <a href="" class="dropdown-item">All Football Products</a>
+                <a href="{% url 'products' %}?category=football_clothing" class="dropdown-item">Clothing</a>
+                <a href="{% url 'products' %}?category=football_equipment" class="dropdown-item">Equipment</a>
+                <a href="{% url 'products' %}?category=football_clothing,football_equipment" class="dropdown-item">All Football Products</a>
             </div>
         </li>
 
@@ -39,9 +39,9 @@
                 Tennnis
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="" class="dropdown-item">Clothing</a>
-                <a href="" class="dropdown-item">Equipment</a>
-                <a href="" class="dropdown-item">All Tennis Products</a>
+                <a href="{% url 'products' %}?category=tennis_clothing" class="dropdown-item">Clothing</a>
+                <a href="{% url 'products' %}?category=tennis_equipment" class="dropdown-item">Equipment</a>
+                <a href="{% url 'products' %}?category=tennis_clothing,tennis_equipment" class="dropdown-item">All Tennis Products</a>
             </div>
         </li>
     </ul>
