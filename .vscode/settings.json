@@ -22,4 +22,5 @@
    "files.autoSave": "off",
    "workbench.colorTheme": "Visual Studio Dark",
    "editor.defaultFormatter": "HookyQR.beautify",
+   "python.pythonPath": "sports_zone/settings.py",
 }
