@@ -279,15 +279,6 @@
           "image": "full-sleeve-sweater.jpg"
         }
       },
-
-
-
-
-
-
-
-
-
       {
         "pk": 21,
         "model": "products.product",
@@ -295,7 +286,7 @@
           "sku": "pp5001340175",
           "name": "Cricket Blazer",
           "description": "It feautures an internal zip pocket for security, a single back vent, suit style pockets and is stain resistant. It is also made from re-vive 100% recycled outer blazer fabric.",
-          "price": 30.00,
+          "price": 75.00,
           "category": 1,
           "rating": 4.8,
           "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXGopPqPr-yrr4U40pT6N0kNgYjw0Ug5_zbg&usqp=CAU",
@@ -309,11 +300,95 @@
           "sku": "pp5001340176",
           "name": "Cricket Coat",
           "description": "Breathable weather protection that optimises body temperature and keeps athletes at peak performance even in wind and rain by acting as a barrier to the elements while allowing heat and sweat to escape through evaporation. Cricket specific fit engineered to move naturally with the body.",
-          "price": 35.00,
+          "price": 45.00,
           "category": 1,
           "rating": 4.7,
           "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0TWV5PnQZAO2kZyt4_Ajsr4sKI-BL7SJL0g&usqp=CAU",
-          "image": "Cricket-coat.jpg"
+          "image": "cricket-coat.jpg"
+        }
+      },
+      {
+        "pk": 23,
+        "model": "products.product",
+        "fields": {
+          "sku": "pp5001340177",
+          "name": "Football Goal",
+          "description": "Made from 42mm PVC tube this goal is strong to stand their best shots. Folding structure allows you to fold in secs. It's easy to take-away and saves space in the warehouse. Ground pegs included for playing on soft ground.",
+          "price": 50.00,
+          "category": 5,
+          "rating": 4.7,
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXDBCXdReahOoUWXVz4rV2wBPYiBLVlh5G5w&usqp=CAU",
+          "image": "football-goals.jpg"
+        }
+      },
+      {
+        "pk": 24,
+        "model": "products.product",
+        "fields": {
+          "sku": "pp5001340178",
+          "name": "Football Bag",
+          "description": "Precision budget team kit bag, Made from tough and durable PVC. Reinforced base with four stud feet. Zip closure with two carry handles, Ideal for carrying around all your sports kit",
+          "price": 55.00,
+          "category": 5,
+          "rating": 4.7,
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvvw6ZdOcVxaM1EJdrJuhj2rh5Uv_iBBe71EYvQ6OR-ttIAIlo7K4sVo0Eaw8J-i1sVvRkFT0&usqp=CAc",
+          "image": "football-bag.jpg"
+        }
+      },
+      {
+        "pk": 25,
+        "model": "products.product",
+        "fields": {
+          "sku": "pp5001340179",
+          "name": "Goalkeeper Gloves",
+          "description": "Features a flat palm cut, a Zohonero latex and an EVA backhand. Conventional elasticated strap with pull loop",
+          "price": 30.00,
+          "category": 5,
+          "rating": 4.4,
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqfGDKlAEJ0QlkR5BIG7RIE5SPyLbkLNAl2g&usqp=CAU",
+          "image": "goalkeeper-gloves.jpg"
+        }
+      },
+      {
+        "pk": 26,
+        "model": "products.product",
+        "fields": {
+          "sku": "pp5001340180",
+          "name": "Football Air Pump",
+          "description": "Don't let a flat spoil your fun. Whether you're on the five-aside court, training field or pitch, this air pump ensures your football stays fully inflated. It has a dual action design, which means it inflates both on the push and pull.",
+          "price": 45.00,
+          "category": 5,
+          "rating": 4.0,
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAF0JFqrNKWqLde5Y6pYX9ZN1DtjilNys_V2xwa1UROo7D95hezootF98BPAmd_44vphcr1KV2&usqp=CAc",
+          "image": "football-air-pump.jpg"
+        }
+      },
+      {
+        "pk": 27,
+        "model": "products.product",
+        "fields": {
+          "sku": "pp5001340181",
+          "name": "Football Shin Pads",
+          "description": "Shin Guards absorb impacts while keeping you comfortable. You can play your game with complete confidence thanks to the attached ankle guards. The straps ensure everything stays exactly where you need it to be.",
+          "price": 15.00,
+          "category": 5,
+          "rating": 4.5,
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvkIF8VcoVZ1BaN-3nxX37MTKBtDKsBzcm_pdDx4FsPTagZiBuvmlQ47BeB8b5FlsCTOHhIMil&usqp=CAc",
+          "image": "football-shinpads.jpg"
+        }
+      },
+      {
+        "pk": 28,
+        "model": "products.product",
+        "fields": {
+          "sku": "pp5001340182",
+          "name": "Football Free Kick Mannequin",
+          "description": "Moulded plastic chest plates and steel tubes. Ideal for evasion training or free kick practice, For use on grass,Ideal for club use - ideally slots into the ground as sold",
+          "price": 32.99,
+          "category": 5,
+          "rating": 4.3,
+          "image_url": "https://www.eurosoccercompany.com/equipment/training-equipment/free-kick-mannequins/diamond-club-quality-football-free-kick-mannequin-jnr-snr",
+          "image": "football-freekick.jpg"
         }
       }
  ]
