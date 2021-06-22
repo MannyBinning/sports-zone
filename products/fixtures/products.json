@@ -390,5 +390,145 @@
           "image_url": "https://www.eurosoccercompany.com/equipment/training-equipment/free-kick-mannequins/diamond-club-quality-football-free-kick-mannequin-jnr-snr",
           "image": "football-freekick.jpg"
         }
+      },
+      {
+        "pk": 29,
+        "model": "products.product",
+        "fields": {
+          "sku": "pp5001340183",
+          "name": "Portable Goals",
+          "description": "The Portable Goals are perfect for recreational play and small matches, complete with a handy carry bag for easy transportation and storage. This Goal Set includes 2 goal nets, easy to erect and set up with pegs securing them to the ground.",
+          "price": 22.99,
+          "category": 5,
+          "rating": 4.4,
+          "image_url": "file:///C:/Users/manib/OneDrive/Documents/Code/MileStone%20Project%204/MileStone%20Project%204/Media/Products/Football/Equipment/portable-goals.jpg",
+          "image": "portable-goals.jpg"
+        }
+      },
+      {
+        "pk": 30,
+        "model": "products.product",
+        "fields": {
+          "sku": "pp5001340184",
+          "name": "Ball Bag",
+          "description": "This ball bag is great for storing away footballs and carrying them to sessions, with a drawstring fastening that also acts as a handle for you to carry the bag on your shoulder. The football sack has mesh panels so you can see the balls inside as well.",
+          "price": 19.99,
+          "category": 5,
+          "rating": 4.2,
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9fNA3BA10ChjfA822Z7fmGQ4sDW4tDBUSQYPxS_AHAnY9QXlafPT0AiZOtPLnNaJeGd0lAlEz&usqp=CAc",
+          "image": "ball-bag.jpg"
+        }
+      },
+      {
+        "pk": 31,
+        "model": "products.product",
+        "fields": {
+          "sku": "pp5001340185",
+          "name": "England Top",
+          "description": "This Nike England Pre Match Shirt 2020 has been developed with Dri-Fit technology which sweeps moisture away from your skin and dries quickly to maximise comfort",
+          "price": 69.99,
+          "category": 2,
+          "rating": 4.5,
+          "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQhUvK15TcOOys4X7S01LsSYhdgfX0aIOpIFeFnXWIwyGP5xDU2seIRh0E_RVKHEs5GD_pZ4zRXy96N0jZRsV9kiA6Pie0tJmyg5UMX4iAxczHwjMq68Eya&usqp=CAE",
+          "image": "england-top.jpg"
+        }
+      },
+      {
+        "pk": 32,
+        "model": "products.product",
+        "fields": {
+          "sku": "pp5001340186",
+          "name": "Liverpool Top",
+          "description": "Dress like the pros on match days with this LFC Match Home Shirt for the 21/22 season which benefits from being engineered with Dri-FIT ADV technology which provides you the perfect combination of lightweight cooling, reduced cling, a precision fit and moisture-wicking comfort to help keep you feeling fresh and fast for the entire 90 minutes.",
+          "price": 69.99,
+          "category": 2,
+          "rating": 4.5,
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTChApz7mxXHaQuhoNcqaClme8YwD4WMv65wNzlwi9zvJub5UE30l7U5zDvRanUZ07v1czQNCo&usqp=CAc",
+          "image": "liverpool-top.jpg"
+        }
+      },
+      {
+        "pk": 33,
+        "model": "products.product",
+        "fields": {
+          "sku": "pp5001340187",
+          "name": "Football Shorts",
+          "description": "The Dry Training Shorts feature an elasticated waistband and drawstring fastening for a secure fit and are crafted from a lightweight Dry fabric with Dri-Fit to wick sweat away from the skin, keeping you dry and comfortable during your workout",
+          "price": 19.99,
+          "category": 2,
+          "rating": 4.3,
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5UhTyGbRw_JGPJA2kEqEcmvg1CNo3S9DBRKnr4MFiHdhYL9g5CmqUqNCEf25gWOX3N5cFq2M&usqp=CAc",
+          "image": "football-shorts.jpg"
+        }
+      },
+      {
+        "pk": 34,
+        "model": "products.product",
+        "fields": {
+          "sku": "pp5001340189",
+          "name": "England Kit Shorts",
+          "description": "These Nike England Shorts have been crafted with Nike Breathe fabric and Dri-Fit technology which keeps you feeling comfortable by enhancing breathability and wicking moisture away from your skin. The shorts have an elasticated waist and drawstring fastening for a secure fit and the iconic team crest allows you to show your admiration for the Three Lions.",
+          "price": 19.99,
+          "category": 2,
+          "rating": 4.3,
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-hhv0exQ3flhGUf7ELa1awqfcHLjK_ofOQcZ67bL04ipaIs21f1ZVrP-Efiep98RMp5BxFyY&usqp=CAc",
+          "image": "england-shorts.jpg"
+        }
+      },
+      {
+        "pk": 35,
+        "model": "products.product",
+        "fields": {
+          "sku": "pp5001340190",
+          "name": "Liverpool Kit Shorts",
+          "description": "These LFC Home Shorts deliver incredible comfort by boosting breathability and wicking sweat away from the skin. The shorts have an elasticated waist and drawstring fastening for a snug fit, while the team crest allows you to showcase your support for The Reds and the Nike Swoosh branding completes the design.",
+          "price": 19.99,
+          "category": 2,
+          "rating": 4.4,
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-hhv0exQ3flhGUf7ELa1awqfcHLjK_ofOQcZ67bL04ipaIs21f1ZVrP-Efiep98RMp5BxFyY&usqp=CAc",
+          "image": "liverpool-shorts.jpg"
+        }
+      },
+      {
+        "pk": 36,
+        "model": "products.product",
+        "fields": {
+          "sku": "pp5001340191",
+          "name": "Bibs (Pack of 6)",
+          "description": "The 6 Pack Mesh Bibs are great for your training sessions with the mesh construction for a lightweight and breathable design, finished off with Sondico branding to the front.",
+          "price": 14.99,
+          "category": 2,
+          "rating": 4.2,
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1zW4WPb7ZOo3664zRUyfTZnCfD4iIRXm6bQ&usqp=CAU",
+          "image": "football-bibs.jpg"
+        }
+      },
+      {
+        "pk": 37,
+        "model": "products.product",
+        "fields": {
+          "sku": "pp5001340192",
+          "name": "Football Coat",
+          "description": "This Team Fall Jacket is crafted with full zip fastening and long sleeves for warmth. It features 2 pockets for a classic look and is a lightweight construction.",
+          "price": 44.99,
+          "category": 2,
+          "rating": 4.6,
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQltmPBHaAlcLxMfUq3HLxxfoQDusC-BcSFBQ&usqp=CAU",
+          "image": "football-coat.jpg"
+        }
+      },
+      {
+        "pk": 38,
+        "model": "products.product",
+        "fields": {
+          "sku": "pp5001340192",
+          "name": "Football Fleece",
+          "description": "This Team Fall Jacket is crafted with full zip fastening and long sleeves for warmth. It features 2 pockets for a classic look and is a lightweight construction.",
+          "price": 44.99,
+          "category": 2,
+          "rating": 4.6,
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQltmPBHaAlcLxMfUq3HLxxfoQDusC-BcSFBQ&usqp=CAU",
+          "image": "football-coat.jpg"
+        }
       }
  ]

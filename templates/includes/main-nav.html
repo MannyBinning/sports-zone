@@ -19,40 +19,67 @@
 
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="clothing-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Cricket
+                Mens
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
+                <a class="font-weight-bold nav-link text-black" href="#" id="clothing-link">
+                    Cricket
+                </a>
                 <a href="{% url 'products' %}?category=cricket_clothing" class="dropdown-item">Clothing</a>
                 <a href="{% url 'products' %}?category=cricket_equipment" class="dropdown-item">Equipment</a>
-                <a href="{% url 'products' %}?category=cricket_clothing,cricket_equipment" class="dropdown-item">All Cricket Products</a>
-            </div>
-        </li>
-
-        <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="homeware-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Football
-            </a>
-            <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
+                <a class="font-weight-bold nav-link text-black mt-2" href="#" id="clothing-link">
+                    Football
+                </a>
                 <a href="{% url 'products' %}?category=football_clothing" class="dropdown-item">Clothing</a>
                 <a href="{% url 'products' %}?category=football_equipment" class="dropdown-item">Equipment</a>
-                <a href="{% url 'products' %}?category=football_clothing,football_equipment" class="dropdown-item">All Football Products</a>
+                <br>
+                <a href="{% url 'products' %}?category=cricket_clothing,cricket_equipment,football_clothing,football_equipment" class="dropdown-item font-weight-bold">All Mens Products</a>
             </div>
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="homeware-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Tennnis
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="clothing-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Ladies
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="{% url 'products' %}?category=tennis_clothing" class="dropdown-item">Clothing</a>
-                <a href="{% url 'products' %}?category=tennis_equipment" class="dropdown-item">Equipment</a>
-                <a href="{% url 'products' %}?category=tennis_clothing,tennis_equipment" class="dropdown-item">All Tennis Products</a>
+            <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
+                <a class="font-weight-bold nav-link text-black" href="#" id="clothing-link">
+                    Cricket
+                </a>
+                <a href="{% url 'products' %}?category=cricket_clothing" class="dropdown-item">Clothing</a>
+                <a href="{% url 'products' %}?category=cricket_equipment" class="dropdown-item">Equipment</a>
+                <a class="font-weight-bold nav-link text-black mt-2" href="#" id="clothing-link">
+                    Football
+                </a>
+                <a href="{% url 'products' %}?category=cricket_clothing" class="dropdown-item">Clothing</a>
+                <a href="{% url 'products' %}?category=cricket_equipment" class="dropdown-item">Equipment</a>
+                <br>
+                <a href="{% url 'products' %}?category=cricket_clothing,cricket_equipment" class="dropdown-item font-weight-bold">All Ladies Products</a>
+            </div>
+        </li>
+
+        <li class="nav-item dropdown">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="clothing-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Kids
+            </a>
+            <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
+                <a class="font-weight-bold nav-link text-black" href="#" id="clothing-link">
+                    Cricket
+                </a>
+                <a href="{% url 'products' %}?category=cricket_clothing" class="dropdown-item">Clothing</a>
+                <a href="{% url 'products' %}?category=cricket_equipment" class="dropdown-item">Equipment</a>
+                <a class="font-weight-bold nav-link text-black mt-2" href="#" id="clothing-link">
+                    Football
+                </a>
+                <a href="{% url 'products' %}?category=cricket_clothing" class="dropdown-item">Clothing</a>
+                <a href="{% url 'products' %}?category=cricket_equipment" class="dropdown-item">Equipment</a>
+                <br>
+                <a href="{% url 'products' %}?category=cricket_clothing,cricket_equipment" class="dropdown-item font-weight-bold">All Kids Products</a>
             </div>
         </li>
         
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black" href="#" id="specials-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Other
+                Accessories
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
                 <a href="{% url 'products' %}?category=tennis_clothing" class="dropdown-item">Clothing</a>

@@ -19,8 +19,8 @@
       "pk": 3,
       "model": "products.category",
       "fields": {
-        "name": "tennis_clothing",
-        "friendly_name": "Tennis Clothing"
+        "name": "ladies_cricket_clothing",
+        "friendly_name": "Ladies Cricket Clothing"
       }
     },
     {
@@ -43,8 +43,56 @@
       "pk": 6,
       "model": "products.category",
       "fields": {
-        "name": "tennis_equipment",
-        "friendly_name": "Tennis Equipment"
+        "name": "ladies_cricket_equipment",
+        "friendly_name": "Ladies Cricket Equipment"
+      }
+    },
+    {
+      "pk": 7,
+      "model": "products.category",
+      "fields": {
+        "name": "ladies_football_clothing",
+        "friendly_name": "Ladies Football Clothing"
+      }
+    },
+    {
+      "pk": 8,
+      "model": "products.category",
+      "fields": {
+        "name": "ladies_football_equipment",
+        "friendly_name": "Ladies Football Equipment"
+      }
+    },
+    {
+      "pk": 9,
+      "model": "products.category",
+      "fields": {
+        "name": "kids_cricket_clothing",
+        "friendly_name": "Kids Cricket Clothing"
+      }
+    },
+    {
+      "pk": 10,
+      "model": "products.category",
+      "fields": {
+        "name": "ladies_football_equipment",
+        "friendly_name": "Kids Cricket Equipment"
+      }
+    },
+    {
+      "pk": 11,
+      "model": "products.category",
+      "fields": {
+        "name": "kids_football_clothing",
+        "friendly_name": "Kids Football Clothing"
+      }
+    },
+    {
+      "pk": 12,
+      "model": "products.category",
+      "fields": {
+        "name": "kids_football_equipment",
+        "friendly_name": "Kids Football Equipment"
       }
     }
   ]
