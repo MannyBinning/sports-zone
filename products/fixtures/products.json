@@ -670,5 +670,159 @@
             "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_YBx9iwiKQ8CA2Sjyl0m1SNztnzpim_yqxA&usqp=CAU",
             "image": "ladies-wicketkeeping-gloves.jpg"
           }
+        },
+        {
+          "pk": 49,
+          "model": "products.product",
+          "fields": {
+            "sku": "pp5001340203",
+            "name": "Ladies Cricket Bottoms",
+            "description": "Flat coulisse. Side pockets. Micromesh insert on the back of the knee and the sides.",
+            "price": 34.99,
+            "category": 3,
+            "rating": 4.6,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRYadrzLmNyMmfBFjPePmsS_Yl1jwbpFL7zmDmoPhS0-UKUo0MSYjPz4QsWia0p_MoksemRrc&usqp=CAc",
+            "image": "ladies-cricekt_bottoms.jpg"
+          }
+        },
+        {
+          "pk": 50,
+          "model": "products.product",
+          "fields": {
+            "sku": "pp5001340204",
+            "name": "Ladies Cricket Sweater",
+            "description": "Women V Neck Knitted Cricket Jumper Ladies Plain Long Sleeves Casual Sweater Top",
+            "price": 44.99,
+            "category": 3,
+            "rating": 4.7,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2c8rECSLcTXYcBgUU7759ZWl7UIyk8ZmDyg&usqp=CAU",
+            "image": "ladies-cricekt-sweater.jpg"
+          }
+        },
+        {
+          "pk": 51,
+          "model": "products.product",
+          "fields": {
+            "sku": "pp5001340205",
+            "name": "Ladies Cricket Cap",
+            "description": "Ladies Designed to fit all head sizes, we've made the Melton Cap with an elasticated headband that gives the user a secure and comfortable fit, giving you peace of mind when are diving for the ball.",
+            "price": 22.99,
+            "category": 4,
+            "rating": 4.6,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ33uE1F-Cmbi38ciYp_P906GjSldj4IKEVJH5hfYDoo9EyXePC8GK8tg8TF28Zx6UxFsXdyJ8&usqp=CAc",
+            "image": "cricket-cap.jpg"
+          }
+        },
+        {
+          "pk": 52,
+          "model": "products.product",
+          "fields": {
+            "sku": "pp5001340205",
+            "name": "Ladies Cricket Jacket",
+            "description": "This Ladies England Cricket Rain Jacket benefits from being constructed with a water repellent outer fabric to help keep you dry and comfortable in wet conditions, whilst the side pockets allow you to store belongings securely and the team crest means you can showcase your support for the team even if the cricket has been delayed.",
+            "price": 44.99,
+            "category": 4,
+            "rating": 4.7,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3BPK4ZT5pCifaPZXG0ceszk4sQc-yNkjk6GQsgpthMJbemU7WtCFlVqO_0PEGwbqUpKXCPNHz&usqp=CAc",
+            "image": "ladies-cricket-jacket.jpg"
+          }
+        },
+        {
+          "pk": 53,
+          "model": "products.product",
+          "fields": {
+            "sku": "pp5001340206",
+            "name": "Ladies Cricket Blazer",
+            "description": "Combed cotton adds softness to this single-breasted blazer, which is cut in a slim profile for a tailored look. A monogrammed bullion patch on the chest elevates its smart and sophisticated appeal",
+            "price": 64.99,
+            "category": 4,
+            "rating": 4.8,
+            "image_url": "https://www.ralphlauren.co.uk/en/bullion-combed-cotton-blazer-3616530100201.html?utm_source=googleshopping&utm_medium=paidsearch&utm_campaign=alwayson&utm_term=googleshopping&utm_content=crid494574959235_campaign12178260143_adgroup117812606355_tidpla-297612067635&gclid=Cj0KCQjwlMaGBhD3ARIsAPvWd6j6itqqbWEv3s7QptbD6HtZxlrd6ZnYSqglZGxHp_G8UK2EIhRXzykaAibWEALw_wcB",
+            "image": "ladies-cricket-blazer.jpg"
+          }
+        },
+        {
+          "pk": 54,
+          "model": "products.product",
+          "fields": {
+            "sku": "pp5001340207",
+            "name": "Ladies Football Top",
+            "description": "Crafted with Nike Breathe fabric and Dri-Fit technology to keep you feeling fresh and comfortable on and off the pitch.",
+            "price": 24.99,
+            "category": 7,
+            "rating": 4.4,
+            "image_url": "https://www.ralphlauren.co.uk/en/bullion-combed-cotton-blazer-3616530100201.html?utm_source=googleshopping&utm_medium=paidsearch&utm_campaign=alwayson&utm_term=googleshopping&utm_content=crid494574959235_campaign12178260143_adgroup117812606355_tidpla-297612067635&gclid=Cj0KCQjwlMaGBhD3ARIsAPvWd6j6itqqbWEv3s7QptbD6HtZxlrd6ZnYSqglZGxHp_G8UK2EIhRXzykaAibWEALw_wcB",
+            "image": "ladies-football-top.jpg"
+          }
+        },
+        {
+          "pk": 55,
+          "model": "products.product",
+          "fields": {
+            "sku": "pp5001340208",
+            "name": "Ladies Football Shorts",
+            "description": "These Football Shorts are crafted with an elasticated waistband and drawstring fastening for a classic look. They feature flat lock seams to prevent chafing and DriFit technology to keep the skin cool, dry and comfortable.",
+            "price": 14.99,
+            "category": 7,
+            "rating": 4.4,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSphkPDz5IwrWW4X-jzhS_sC0PikV_6qj1B05EUMADKQKB63ZRDsYTxGorCeBv97i4rdLB7SRQg&usqp=CAc",
+            "image": "ladies-football-shorts.jpg"
+          }
+        },
+        {
+          "pk": 56,
+          "model": "products.product",
+          "fields": {
+            "sku": "pp5001340209",
+            "name": "Ladies Liverpool Top",
+            "description": "This Ladies Liverpool Home Shirt for the 21/22 season has been developed with Nike Breathe fabric and Dri-Fit technology which delivers the perfect combination of moisture wicking comfort and cooling breathability whether you are playing a full 90 minutes or representing your club.",
+            "price": 34.99,
+            "category": 7,
+            "rating": 4.6,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa46gFumtucF14rfsWiItHBiGn8PXy9ASauhvItR6kUZAYP91oFs4j3rWEmCFYv6fij8QbMls&usqp=CAc",
+            "image": "ladies-liverpool-top.jpg"
+          }
+        },
+        {
+          "pk": 57,
+          "model": "products.product",
+          "fields": {
+            "sku": "pp5001340210",
+            "name": "Ladies Liverpool Shorts",
+            "description": "Shorts pair replica design details with sweat-wicking fabric to give you a game-ready look inspired by your favourite team.This product is made from 100% recycled polyester fibres.",
+            "price": 19.99,
+            "category": 7,
+            "rating": 4.6,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDukf4I_-cDw-vhPdW0pQ0SB-93To6nUU3VZFHQUtD5_MkBhNeTrb4EPhVkqTkbxf-DWUJEqM&usqp=CAc",
+            "image": "ladies-liverpool-top.jpg"
+          }
+        },
+        {
+          "pk": 58,
+          "model": "products.product",
+          "fields": {
+            "sku": "pp5001340211",
+            "name": "Ladies Football Joggers",
+            "description": " These are crafted with supreme fabric - Vaporknit, which is lightweight, breathable and quick-drying, ideal for exercise. These soft pants have been crafted in a regular fit with an elasticated waistband and adjustable drawstring, to provide a more personalised, secure fit.",
+            "price": 29.99,
+            "category": 7,
+            "rating": 4.5,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi1iqj3bx5R6kKZ-k8OswWNo9DZeTALby3QgqOeIk9Xa14jYwyeJcAJ6-mgvuSB2ui72g-yJhd&usqp=CAc",
+            "image": "ladies-football-joggers.jpg"
+          }
+        },
+        {
+          "pk": 59,
+          "model": "products.product",
+          "fields": {
+            "sku": "pp5001340212",
+            "name": "Ladies Football Coat",
+            "description": "Waterproof football parka that has a hood, pockets, and an adjustment zipper, to make it easier for you to move around and train outside in cold, wet or windy weather, we have designed this long, waterproof, comfortable, practical parka.",
+            "price": 64.99,
+            "category": 7,
+            "rating": 4.6,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlv0MRd16nFTLGHe7QgFtPZsgowVD-CyrWQ2YzuxXYHTHj-70janFYa_LHcCsp6lZPwYEC2jk&usqp=CAc",
+            "image": "ladies-football-coat.jpg"
+          }
         }
  ]

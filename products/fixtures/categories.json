@@ -75,7 +75,7 @@
       "pk": 10,
       "model": "products.category",
       "fields": {
-        "name": "ladies_football_equipment",
+        "name": "kids_cricket_equipment",
         "friendly_name": "Kids Cricket Equipment"
       }
     },
