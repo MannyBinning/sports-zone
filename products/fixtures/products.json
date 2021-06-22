@@ -1034,6 +1034,145 @@
             "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn336BhJIjQci76K_7g4m0EJUZpuPLjjvIwA&usqp=CAU",
             "image": "kids-cricket-sweater.jpg"
           }
+        },
+        {
+          "pk": 75,
+          "model": "products.product",
+          "fields": {
+            "sku": "pp5001340275",
+            "name": "Kids Football Top",
+            "description": "Junior Nike England Home Shirt 2020 which has been crafted with Nike Breathe fabric and Dri-Fit technology which allows you to be at your best on and off the pitch thanks to the superior breathability and moisture wicking capabilities.",
+            "price": 24.99,
+            "category": 12,
+            "rating": 4.3,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvWTSjFk5PyehZmVesWpEpUll15-JgPDzzAg&usqp=CAU",
+            "image": "kids-football-top.jpg"
+          }
+        },
+        {
+          "pk": 76,
+          "model": "products.product",
+          "fields": {
+            "sku": "pp5001340276",
+            "name": "Kids Football Shorts",
+            "description": "These Junior Nike England Home Shorts 2020 have been crafted with Nike Breathe fabric and Dri-Fit technology which keeps you feeling comfortable by enhancing breathability and wicking moisture away from your skin. The shorts have an elasticated waist and drawstring fastening for a secure fit and the iconic team crest allows you to show your admiration for the Three Lions.",
+            "price": 14.99,
+            "category": 12,
+            "rating": 4.0,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4d95Y7AnC5LZhQW5EN2QnbUfWXuuGJA0-ytVQLmrRcfXRL6-JdlJnwWk2jaZUnE7YlEybeAk&usqp=CAc",
+            "image": "kids-football-shorts.jpg"
+          }
+        },
+        {
+          "pk": 77,
+          "model": "products.product",
+          "fields": {
+            "sku": "pp5001340277",
+            "name": "Kids Liverpool Top",
+            "description": "Little size. Lots of comfort. Future champions need the uniform to match. The LFC Nike Infant Home Kit 21/22 includes a jersey, shorts and socks for a complete look inspired by the elite. Breathable fabric feels soft and keeps sweat off their skin for all-day comfort.",
+            "price": 44.99,
+            "category": 12,
+            "rating": 4.7,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREKNGVjFeGEipEnU95kQWa1BI5UiTBd8cqE7rHPFklu9fe2ajZH_QLGzSnZQ&usqp=CAc",
+            "image": "kids-liverpool-top.jpg"
+          }
+        },
+        {
+          "pk": 78,
+          "model": "products.product",
+          "fields": {
+            "sku": "pp5001340278",
+            "name": "Kids Liverpool Shorts",
+            "description": "The LFC Nike Junior Home Stadium Shorts 21/22 give you the same look worn on the field by your favorite players. Highly breathable fabric helps keep sweat off your skin, so you stay comfortable.",
+            "price": 24.99,
+            "category": 12,
+            "rating": 4.4,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdMmAoArW9V-CG3cOAYdtVS8egmVuywmdItbjt2j_tvxjtmalVISxd6u4o6VfQ7pOa5NdyPto&usqp=CAc",
+            "image": "kids-liverpool-shorts.jpg"
+          }
+        },
+        {
+          "pk": 79,
+          "model": "products.product",
+          "fields": {
+            "sku": "pp5001340279",
+            "name": "Kids Football Coat",
+            "description": "The Sondico Rain Jacket provide protection from the elements thanks to a lightweight polyester construction with lined hood, full zip and touch and close storm flap. This kids jacket benefits from a breathable inner lining for ventilation, and sports elasticated wrist cuffs and a toggle hem to the waistband for an adjustable fit.",
+            "price": 30.00,
+            "category": 12,
+            "rating": 4.5,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu7GoERPsnU41LhLQaf42IJOAdwPRDtZ3U8xa-OKRt-ktUgYVUO5S4LPr1hWJnE011gnwonus&usqp=CAc",
+            "image": "kids-football-coat.jpg"
+          }
+        },
+        {
+          "pk": 80,
+          "model": "products.product",
+          "fields": {
+            "sku": "pp5001340280",
+            "name": "Kids Football Joggers",
+            "description": "The Nike Libero Boys Football training bottoms with Dri-FIT technology which are ideal for all types of sports and training.",
+            "price": 25.00,
+            "category": 12,
+            "rating": 4.3,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN_VTIOODg9WyZn-IxWMX5dzeWwv96174SzA&usqp=CAU",
+            "image": "kids-joggers.jpg"
+          }
+        },
+        {
+          "pk": 81,
+          "model": "products.product",
+          "fields": {
+            "sku": "pp5001340281",
+            "name": "Junior Size Football",
+            "description": "The Uniforia junior's ball's bold appearance takes its cue from the football adidas made for Europe's top international tournamen",
+            "price": 20.99,
+            "category": 11,
+            "rating": 4.4,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiJETX1wGWpMXiFmRQ3tH7U0QmqTQyxGtj4LhVmZmkoYJhAez4sQktgnylgqo3zjl12ACaJQrs&usqp=CAc",
+            "image": "kids-football.jpg"
+          }
+        },
+        {
+          "pk": 82,
+          "model": "products.product",
+          "fields": {
+            "sku": "pp5001340282",
+            "name": "Junior Shin Pads",
+            "description": "These Shin Guards absorb impacts while keeping you comfortable. You can play your game with complete confidence thanks to the attached ankle guards. The hook-and-loop straps ensure everything stays exactly where you need it.",
+            "price": 14.99,
+            "category": 11,
+            "rating": 4.6,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9NHJUxfsLYxgD84ztoywfoeii3RG5jBgFypenNbkolbNmjLiaL-UaTZ3vgKgm4xuv4PjYhZtH&usqp=CAc",
+            "image": "kids-shin-pads.jpg"
+          }
+        },
+        {
+          "pk": 83,
+          "model": "products.product",
+          "fields": {
+            "sku": "pp5001340283",
+            "name": "Junior Goals Post",
+            "description": "Inner dimensions = 180 x 120 x 90 cm.Tube diameter: 41mm. Product weight = 9.8 kg",
+            "price": 45.99,
+            "category": 11,
+            "rating": 4.4,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-OrYy-SRPeAwOyLBW9Xmuw1X3mcnE-kT7Mw&usqp=CAU",
+            "image": "kids-goals.jpg"
+          }
+        },
+        {
+          "pk": 84,
+          "model": "products.product",
+          "fields": {
+            "sku": "pp5001340284",
+            "name": "Junior Football Kit Bag",
+            "description": "The Nike Academy Team Hard-Case Duffel Bag is a durable design built to keep you organised. Its hard bottom helps keep your gear safe, while multiple carrying points give you options when going to and from the pitch.",
+            "price": 30.00,
+            "category": 11,
+            "rating": 4.4,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNHYXSW_bd9y_cn1g_zqfpHGkW_CRqD_the1-q-jGL3v1hru9gYf3Y3FV06sPDWokrCPwfhrg8&usqp=CAc",
+            "image": "kids-football-bag.jpg"
+          }
         }
-
  ]
