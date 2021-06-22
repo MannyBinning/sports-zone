@@ -497,10 +497,10 @@
           "name": "Bibs (Pack of 6)",
           "description": "The 6 Pack Mesh Bibs are great for your training sessions with the mesh construction for a lightweight and breathable design, finished off with Sondico branding to the front.",
           "price": 14.99,
-          "category": 2,
+          "category": 13,
           "rating": 4.2,
           "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1zW4WPb7ZOo3664zRUyfTZnCfD4iIRXm6bQ&usqp=CAU",
-          "image": "football-bibs.jpg"
+          "image": "bibs.jpg"
         }
       },
       {
