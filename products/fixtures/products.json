@@ -116,13 +116,13 @@
         "model": "products.product",
         "fields": {
           "sku": "pp5001340163",
-          "name": "Tennis Racket",
-          "description": "The Ultra Power Pro 105 delivers a nice boost of power and stability for recreational tennis players. Innovative frame and shaft constructions create thicker geometries that help stabilize the frame during the swing, while its relatively light weight and midplus head find an impactful balance of comfort and forgiveness. Featuring design and performance inspired by the performance Ultra series, the Ultra Power Pro 105 caters to a wide variety of ages and styles.",
-          "price": 49.99,
+          "name": "Ladies Helmet ",
+          "description": "Adjustable for all sizes, Factory fitted 360 faceguard. Robust ABS outer shell. Size adjustment dial. Superior ventilation system.",
+          "price": 74.99,
           "category": 6,
           "rating": 4.6,
-          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSzShXGQOsBj5HwEMT8iitnnQK5kzgaBPv5eqyyOt6eTacQky3R9BsyyZ-y7wEDSAJh5voL7VN&usqp=CAc",
-          "image": "tennis-racket.jpg"
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTrgw9Jiq9CeDUAR03tclwvZtWLI0l4PwFJl0EUbYayJTc8GJMEM-N1IP5hRP3Qm3FKpXqrurG&usqp=CAc",
+          "image": "ladies-helmet.jpg"
         }
       },
       {
@@ -130,13 +130,13 @@
         "model": "products.product",
         "fields": {
           "sku": "pp5001340164",
-          "name": "Tennis Top",
-          "description": "This Mens adidas Fab Polo Shirt has been crafted with Climalite technology that wick sweat away from the skin to keep you feeling dry teamed with a lightweight and breathable design along with a three button placket and short sleeves for a comfortable fit.",
+          "name": "Ladies Cricket Top",
+          "description": "The New Balance England Test Shirt is the perfect option for showcasing your support. Constructed with a three button placket, short sleeves and a fold over collar for a classic polo. The branding at the arm and team badge at the chest complete the sporty look.",
           "price": 24.99,
           "category": 3,
           "rating": 4.6,
-          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGH95mblwwnHVfTwYLmzBT9p6XxGw7iRnGzz6zVNL5oik0z6N3-mWQttvmkuxM-57sFEhLaSU&usqp=CAc",
-          "image": "tennis-top.jpg"
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh68YiJLNinvidX6fgKV9ZFG6VoQnOfLX6XJthBjF_d1KWDsCRdtqsHseP9cPQQt4As8Q5wLc&usqp=CAc",
+          "image": "ladies-cricket-top.jpg"
         }
       },
       {
@@ -530,5 +530,145 @@
           "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQltmPBHaAlcLxMfUq3HLxxfoQDusC-BcSFBQ&usqp=CAU",
           "image": "football-coat.jpg"
         }
-      }
+      },
+      {
+        "pk": 39,
+        "model": "products.product",
+        "fields": {
+          "sku": "pp5001340193",
+          "name": " Ladies Cricket Bat",
+          "description": "This Slazenger V200 1+ Cricket Bat has been engineered with Grade 1 English willow, whilst the bat has a flat face with maximised edges which are rounded off to work together to deliver impressive power so you can make the boundary with ease. The bat has a mid-blade sweet spot which ensures great pick up and balance, whilst the semi-oval 12 piece cane delivers an optimal combination of power, control and flexibility. The bat has a hybrid grip so you can handle the bat with great control and the Slazenger branding completes the look.",
+          "price": 124.99,
+          "category": 6,
+          "rating": 4.6,
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_dq5mpnCa2DEH_aEl_ac6giRjLFsBL8bulVtodtyWs1Z-6FMSTrZiYoJ8VANUI_iGYcsCAzA&usqp=CAc",
+          "image": "ladies-cricket-bat.jpg"
+        }
+      },
+      {
+          "pk": 40,
+          "model": "products.product",
+          "fields": {
+            "sku": "pp5001340194",
+            "name": "Ladies Red Cricket Ball",
+            "description": "Cork and rubber combination core cricket ball. Womens Red cricket ball, Hard shell lining for durability.",
+            "price": 25.99,
+            "category": 6,
+            "rating": 4.3,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPLww36fD0qAP7FfRMd2zDxsI3p3a2yzFudTYSjRPEh-uYZHMrK_WAJMc7IIY&usqp=CAc",
+            "image": "ladies-red-ball.jpg"
+          }
+        },
+        {
+          "pk": 41,
+          "model": "products.product",
+          "fields": {
+            "sku": "pp5001340195",
+            "name": "Ladies White Cricket Ball",
+            "description": "The Readers cricket balls are ideal for women's one day matches and 20/20 games. ",
+            "price": 25.99,
+            "category": 6,
+            "rating": 4.3,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqhhiVrCbgVi69TZN9cA4s43fw5JnRmLaRl9m9iC46KVf0jNyg7MtreSMdisrEniRGlb9W4W84&usqp=CAc",
+            "image": "ladies-white-ball.jpg"
+          }
+        },
+        {
+          "pk": 42,
+          "model": "products.product",
+          "fields": {
+            "sku": "pp5001340196",
+            "name": "Stumps with Bails",
+            "description": "Made From Finest Quality Hardwood. Spring Return Stumps are natural wooden stumps with strong cast iron base and heavy duty spring return mechanism.",
+            "price": 29.99,
+            "category": 6,
+            "rating": 4.5,
+            "image_url": "https://www.sportsmaxx.co.uk/wp-content/uploads/2020/06/CRICKET-STUMP-150x150.jpg",
+            "image": "cricket-stumps.jpg"
+          }
+        },
+        {
+          "pk": 43,
+          "model": "products.product",
+          "fields": {
+            "sku": "pp5001340197",
+            "name": "Ladies Cricket Gloves",
+            "description": "The Batting Gloves Ladies are perfect for training sessions and matches, crafted with a wide elasticated wrist cuff with a touch tape fastening strap for a secure fit while perforation holes to the palm that increase breathability. Padding to the fingers and back of the hand provide fantastic protection from impact damage while still allowing for movement with the fingers.",
+            "price": 29.99,
+            "category": 6,
+            "rating": 4.5,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6J9Q6r8mjvcg5wqelbpXA7d7iNeyvbFTy_xQN58JyfipaXOak-87XH9ZhAh_yNdvjVunFf3ya&usqp=CAc",
+            "image": "ladies-cricket-gloves.jpg"
+          }
+        },
+        {
+          "pk": 44,
+          "model": "products.product",
+          "fields": {
+            "sku": "pp5001340198",
+            "name": "Ladies Cricket Thigh Gaurd",
+            "description": "Contoured thigh guard with extra large inner thigh pad creates an all in one lower body protection system. Combination of high density foam for lightweight, high impact protection, Adjustable elastic straps ensure a custom and comfortable fit",
+            "price": 29.99,
+            "category": 6,
+            "rating": 4.3,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0B8b2OtJaiVb7BdBfptBLdEQD9q8RYdENT1ysbozEqNvS158fF6yUvgrScg&usqp=CAc",
+            "image": "ladies-thigh-gaurd.jpg"
+          }
+        },
+        {
+          "pk": 45,
+          "model": "products.product",
+          "fields": {
+            "sku": "pp5001340199",
+            "name": "Ladies Cricket Arm Gaurd",
+            "description": "The Arm Guard will absorb impact and stave off what would potentially be painful blows. The Premium PU Cover ensures the durability of the arm guard while maintaining its lightweight performance. The arm guard's towel backing works hard to absorb all moisture that can be generated when batting for long periods under intense pressure. Fitted with a stretchy strap, the arm guard is fully adjustable for a comfortable fit.",
+            "price": 20.00,
+            "category": 6,
+            "rating": 4.0,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRweWTZuTnid-xeJr8pLgalxBf75Rgfp28qsbnLlqi9EAdPiZWu9GNnjfTHqcII5GsrWaNGD7M&usqp=CAc",
+            "image": "ladies-arm-gaurd.jpg"
+          }
+        },
+        {
+          "pk": 46,
+          "model": "products.product",
+          "fields": {
+            "sku": "pp5001340200",
+            "name": "Ladies Cricket Bag",
+            "description": "This Ladies cricket bag contains main storage compartment which is big enough to fit in the vast majority of your playing kit, essential for someone that has a lot of gear. Your pads and gloves will fit comfortably in here, with all your other internal protection. There’s an internal bat storage sleeve to keep your pride and joy as protected as possible. ",
+            "price": 49.99,
+            "category": 6,
+            "rating": 4.5,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS71XzEugwkdO8b_5rL-o1Kl0lluQzV2tGInQGPSJs07a8E9B4sDkte0fFnZp7KQgHhCHIR_y-1&usqp=CAc",
+            "image": "ladies-cricket-bag.jpg"
+          }
+        },
+        {
+          "pk": 47,
+          "model": "products.product",
+          "fields": {
+            "sku": "pp5001340201",
+            "name": "Ladies Batting Pads",
+            "description": "Ladies cricket batting pads with excellent padding for comfort and protection, High density expanded foam shin and top hat sections for high shock absorbency. Contoured inner with dual density foam protection. Traditional 7 cane shin section, Lightweight PU covering high density rounded foam protection with mesh comfort zone, Extra wide knee roll for added comfort and protection. Hard wearing instep with extra padding",
+            "price": 39.99,
+            "category": 6,
+            "rating": 4.6,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuFXPepSbuOoOQ7Mg4crUXc4kQBIsiYlTqSQ&usqp=CAU",
+            "image": "ladies-batting-pads.jpg"
+          }
+        },
+        {
+          "pk": 48,
+          "model": "products.product",
+          "fields": {
+            "sku": "pp5001340202",
+            "name": "Ladies Wickets Keeping Gloves",
+            "description": "Unique Kookaburra catching cup (KCC) - cotton. The Kookaburra Catching Cup uses unique padding and flex points within the palm to provide a perfect enclosure around the ball.",
+            "price": 35.00,
+            "category": 6,
+            "rating": 4.5,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_YBx9iwiKQ8CA2Sjyl0m1SNztnzpim_yqxA&usqp=CAU",
+            "image": "ladies-wicketkeeping-gloves.jpg"
+          }
+        }
  ]
