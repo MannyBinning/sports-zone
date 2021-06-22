@@ -682,7 +682,7 @@
             "category": 3,
             "rating": 4.6,
             "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRYadrzLmNyMmfBFjPePmsS_Yl1jwbpFL7zmDmoPhS0-UKUo0MSYjPz4QsWia0p_MoksemRrc&usqp=CAc",
-            "image": "ladies-cricekt_bottoms.jpg"
+            "image": "ladies-cricket-bottoms.jpg"
           }
         },
         {
@@ -696,7 +696,7 @@
             "category": 3,
             "rating": 4.7,
             "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2c8rECSLcTXYcBgUU7759ZWl7UIyk8ZmDyg&usqp=CAU",
-            "image": "ladies-cricekt-sweater.jpg"
+            "image": "ladies-cricket-sweater.jpg"
           }
         },
         {
@@ -794,7 +794,7 @@
             "category": 7,
             "rating": 4.6,
             "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDukf4I_-cDw-vhPdW0pQ0SB-93To6nUU3VZFHQUtD5_MkBhNeTrb4EPhVkqTkbxf-DWUJEqM&usqp=CAc",
-            "image": "ladies-liverpool-top.jpg"
+            "image": "ladies-liverpool-shorts.jpg"
           }
         },
         {
@@ -824,5 +824,216 @@
             "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlv0MRd16nFTLGHe7QgFtPZsgowVD-CyrWQ2YzuxXYHTHj-70janFYa_LHcCsp6lZPwYEC2jk&usqp=CAc",
             "image": "ladies-football-coat.jpg"
           }
+        },
+        {
+          "pk": 60,
+          "model": "products.product",
+          "fields": {
+            "sku": "pp5001340260",
+            "name": "Kids Cricket Helmet",
+            "description": "The Junior Cricket Helmet has a ABS shell with fabric cover, alongside black bead EPS for shock absorption with comfort ventilation channels and a soft polyurethane comfort lining. This helmet also has a 4mm wire grill with 5mm top wire for added facial protection, finished with a dial adjuster at the rear for a customisable fit. Junior: 53-57cm.",
+            "price": 64.99,
+            "category": 10,
+            "rating": 4.5,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkXyTyGSCSK9wQkyyTENdDBiKo-FdxWl-r6Q&usqp=CAU",
+            "image": "kids-helmet.jpg"
+          }
+        },
+        {
+          "pk": 61,
+          "model": "products.product",
+          "fields": {
+            "sku": "pp5001340261",
+            "name": "Kids Cricket Bat",
+            "description": "This Slazenger Panther Cricket Bat is constructed with a gripped handle for good control and is complete with Slazenger branding.",
+            "price": 24.99,
+            "category": 10,
+            "rating": 4.4,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKakXR26EIoLiSxITB1lhFI1CGOR7Wlo9ieugwRIY8VhjwheDa0d018Jn9q34&usqp=CAc",
+            "image": "kids-bat.jpg"
+          }
+        },
+        {
+          "pk": 62,
+          "model": "products.product",
+          "fields": {
+            "sku": "pp5001340262",
+            "name": "Kids Red Cricket Ball",
+            "description": "4.5oz League Cricket Ball is perfect for practicing your technique and is ideal for junior matches. The ball features vegetable tanned leater and a moulded cork centre for a quality finish.",
+            "price": 4.99,
+            "category": 10,
+            "rating": 4.5,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_7p2XwsRRrcN8tWjZHPFrMcIxwZDAoDASeQ&usqp=CAU",
+            "image": "kids-red-ball.jpg"
+          }
+        },
+        {
+          "pk": 63,
+          "model": "products.product",
+          "fields": {
+            "sku": "pp5001340263",
+            "name": "Kids White Cricket Ball",
+            "description": "4.5oz Super safe real feel of Coca Bora Ball and Risk Free, Hand Stitched Taylor made Seam, Swing, Spin & give Perfect Grip.",
+            "price": 4.99,
+            "category": 10,
+            "rating": 4.5,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGi4keduW2B3M94dTxiW1b57nStIC1qGOCsHcGy1fXEK5v-1-MbLnRHYGkhRJCqbychbFYg6bl&usqp=CAc",
+            "image": "kids-white-ball.jpg"
+          }
+        },
+        {
+          "pk": 64,
+          "model": "products.product",
+          "fields": {
+            "sku": "pp5001340264",
+            "name": "Stumps and Bails",
+            "description": "The Spring Return Wooden Stumps and Bails are solid wooden 28inch, stumps on a cast iron base. The stumps are perfect to be used for matches, cricket nets or in the garden.",
+            "price": 24.99,
+            "category": 10,
+            "rating": 4.2,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbg_cEm3CC8wAvH3RqFqrZx4M6cOSv-IsGBJh_B6jAa6v8R61nLoXBnmEuSR5zLjPHapdmjuvH&usqp=CAc",
+            "image": "kids-stumps.jpg"
+          }
+        },
+        {
+          "pk": 65,
+          "model": "products.product",
+          "fields": {
+            "sku": "pp5001340265",
+            "name": "Batting Gloves",
+            "description": "The entry level batting gloves are the ideal product for aspiring young cricketers and those new to the game. Great comfort and suitable levels of protection combine to make a great looking glove.",
+            "price": 19.99,
+            "category": 10,
+            "rating": 4.6,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1Ky5KL2vKmrRQv0eTi7uGLdhgMCOMCWocjA&usqp=CAU",
+            "image": "kids-cricket-gloves.jpg"
+          }
+        },
+        {
+          "pk": 66,
+          "model": "products.product",
+          "fields": {
+            "sku": "pp5001340266",
+            "name": "Thigh Pad",
+            "description": "Designed as batting protection, this lightweight pad then comes moulded with impact absorption foam, some flexible wrap around panels and an ambidextrous fit. Perfect for keeping your young one safe in cricket.",
+            "price": 9.99,
+            "category": 10,
+            "rating": 4.1,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9pigbZJabw9KJwBccSV6EL9rfn07szCvSyIzGz567Ps11BhXQEnvgikS_xXFcuI5Uq5Be4DI&usqp=CAc",
+            "image": "kids-thigh-gaurd.jpg"
+          }
+        },
+        {
+          "pk": 67,
+          "model": "products.product",
+          "fields": {
+            "sku": "pp5001340267",
+            "name": "Arm Gaurd",
+            "description": "Designed as batting protection, this lightweight pad then comes moulded with impact absorption foam, some flexible wrap around panels and an ambidextrous fit. Perfect for keeping your young one safe in cricket.",
+            "price": 9.99,
+            "category": 10,
+            "rating": 4.1,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUZjDB57UcOnmOUg7Q4tA9devxr4ZqK9vZ1Q&usqp=CAU",
+            "image": "kids-arm-gaurd.jpg"
+          }
+        },
+        {
+          "pk": 68,
+          "model": "products.product",
+          "fields": {
+            "sku": "pp5001340268",
+            "name": "Batting Pads",
+            "description": "These Batting Pads have been engineered with 3D flex knee fit protection for added comfort, whilst the slimline lightweight ambidextrous wing fit makes the pads perfect for left and right handed batsmen. The pads have a contoured internal shin guard with foam padding for comfort, whilst the three touch and close straps ensure you get a secure fit",
+            "price": 39.99,
+            "category": 10,
+            "rating": 4.6,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCDjR0I-0UREEx4MIvs8sUc1E7wvo_r9VHZA&usqp=CAU",
+            "image": "kids-batting-pads.jpg"
+          }
+        },
+        {
+          "pk": 69,
+          "model": "products.product",
+          "fields": {
+            "sku": "pp5001340269",
+            "name": "Kids Cricket Bag",
+            "description": "Suitable for Kids. The main storage compartment is big enough to fit in the vast majority of your playing kit, essential for someone that has a lot of gear. Your pads and gloves will fit comfortably in here, with all your other internal protection. There’s an internal bat storage sleeve to keep your pride and joy as protected as possible. ",
+            "price": 35.00,
+            "category": 10,
+            "rating": 4.5,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHGxD3dijwm0V7Dhbba4Qzs4m1fK3cyPOGywd5Aw1cUizpv8plFlompTb4-3ib11mzvFk06k4&usqp=CAc",
+            "image": "kids-cricket-bag.jpg"
+          }
+        },
+        {
+          "pk": 70,
+          "model": "products.product",
+          "fields": {
+            "sku": "pp5001340270",
+            "name": "Wickets Keeping Gloves",
+            "description": "Suitable for Kids. The Prestige WicketKeeping gloves are a high class, high-performance glove that has been designed and refined by our product team in Robertsbridge. Sitting within the Classic range, the Prestige ooze class with their predominantly white colourway.",
+            "price": 20.00,
+            "category": 10,
+            "rating": 4.2,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBYPQmWQKT49pf_AR59wp7uudNlRY2Tf-3NCDK5lSNR2JxLPQ3Yzo28ix8fZnYJJtnGh5V07w&usqp=CAc",
+            "image": "kids-wicketkeeping-gloves.jpg"
+          }
+        },
+        {
+          "pk": 71,
+          "model": "products.product",
+          "fields": {
+            "sku": "pp5001340271",
+            "name": "Kids Cricket Top",
+            "description": "TRADITIONAL RAGLAN SLEEVE. ICONIC NIKE CRICKET SIDE SEAM. FULL MESH BACK PANEL TO MAXIMIZE COOLING. ICONIC NIKE CRICKET DROP TAIL AND VENT TO ENSURE COVERAGE WHILE NEVER RESTRICTING THE ATHLETE. BACK NECK TAPE FOR CLEAN INTERNAL FINISH",
+            "price": 24.99,
+            "category": 9,
+            "rating": 4.6,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBYPQmWQKT49pf_AR59wp7uudNlRY2Tf-3NCDK5lSNR2JxLPQ3Yzo28ix8fZnYJJtnGh5V07w&usqp=CAc",
+            "image": "kids-cricket-top.jpg"
+          }
+        },
+        {
+          "pk": 72,
+          "model": "products.product",
+          "fields": {
+            "sku": "pp5001340272",
+            "name": "Kids Cricket Joggers",
+            "description": "These Trousers haven been crafted with an elasticated waistband for a comfortable and secure fit while out on the pitch. These Slazenger cricket trousers also feature two open pockets to the front and are completed with the Slazenger logo embroidered to the mid left thigh.",
+            "price": 29.99,
+            "category": 9,
+            "rating": 4.5,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8ry16ey2W4Uu9B9fXRc-_vGwPdYqk9I8EVBmum2agRRT9_rHpEVlar1-tNZsYc0tsYueFRfQ&usqp=CAc",
+            "image": "kids-cricket-joggers.jpg"
+          }
+        },
+        {
+          "pk": 73,
+          "model": "products.product",
+          "fields": {
+            "sku": "pp5001340273",
+            "name": "Kids Cricket Coat",
+            "description": "Karrimor's Charcoal 3 in 1 Jacket is windpoof, waterproof, and breathable, making it the perfect garment for those chilly months. As well as the weatherproof jacket, the 3 in1 is crafted with a removable internal fleece, making this a truly versatile Autumn / Winter piece.",
+            "price": 39.99,
+            "category": 9,
+            "rating": 4.4,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSw8sDk8ZlGR20vRFbZQDW55yTF24wJT3sQG1XKfXpLtAc11hGYRZDPAucYlAFt3B3HGNNEKA&usqp=CAc",
+            "image": "kids-cricket-coat.jpg"
+          }
+        },
+        {
+          "pk": 74,
+          "model": "products.product",
+          "fields": {
+            "sku": "pp5001340274",
+            "name": "Kids Cricket Sweater",
+            "description": "For this cricket jumper, Ralph Lauren updates the iconic original with cotton-and-cashmere yarn and an embroidered shield. Its wide rib-knit hem is a vintage-inspired detail, as it was once necessary for keeping it tucked in while playing the sport.",
+            "price": 44.99,
+            "category": 9,
+            "rating": 4.6,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn336BhJIjQci76K_7g4m0EJUZpuPLjjvIwA&usqp=CAU",
+            "image": "kids-cricket-sweater.jpg"
+          }
         }
+
  ]
