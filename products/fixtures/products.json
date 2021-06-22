@@ -357,7 +357,7 @@
           "name": "Football Air Pump",
           "description": "Don't let a flat spoil your fun. Whether you're on the five-aside court, training field or pitch, this air pump ensures your football stays fully inflated. It has a dual action design, which means it inflates both on the push and pull.",
           "price": 45.00,
-          "category": 5,
+          "category": 14,
           "rating": 4.0,
           "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAF0JFqrNKWqLde5Y6pYX9ZN1DtjilNys_V2xwa1UROo7D95hezootF98BPAmd_44vphcr1KV2&usqp=CAc",
           "image": "football-air-pump.jpg"
@@ -1173,6 +1173,146 @@
             "rating": 4.4,
             "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNHYXSW_bd9y_cn1g_zqfpHGkW_CRqD_the1-q-jGL3v1hru9gYf3Y3FV06sPDWokrCPwfhrg8&usqp=CAc",
             "image": "kids-football-bag.jpg"
+          }
+        },
+        {
+          "pk": 85,
+          "model": "products.product",
+          "fields": {
+            "sku": "pp5001340285",
+            "name": "Socks",
+            "description": "The Classic II socks feature Nike Dri-Fit technology which wicks moisture from the skin as you play. They also have an articulated footbed for a snug, comfortable fit.",
+            "price": 9.99,
+            "category": 13,
+            "rating": 4.6,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTYQ0oB2D1JegZeN_iDf7bwxUIFofJiuRa-w&usqp=CAU",
+            "image": "socks.jpg"
+          }
+        },
+        {
+          "pk": 86,
+          "model": "products.product",
+          "fields": {
+            "sku": "pp5001340286",
+            "name": "Core Base Layer",
+            "description": "Long Sleeved Core Base Layer Top offers a compression fit coupled with an elastic hem for a secure, comfortable fit while training or during a match. This base layer top also features Optivent technology for breathability and is complete with Sondico branding to the chest and back. ",
+            "price": 15.99,
+            "category": 13,
+            "rating": 4.5,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJk5o_dleia_fu9NMQOCGR6jhrc3kLZx1jJqxhSwnlxujnfuSxkjKWqdP-ME0kjztctaPuCWca&usqp=CAc",
+            "image": "base.layer.jpg"
+          }
+        },
+        {
+          "pk": 87,
+          "model": "products.product",
+          "fields": {
+            "sku": "pp5001340287",
+            "name": "Women's base layer",
+            "description": "A soft and stretchy tank top with a sleek, feminine design for everyday layering comfort, the Siren Tank features our durable and incredibly soft corespun merino wool blend fabric.",
+            "price": 11.99,
+            "category": 13,
+            "rating": 4.2,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhon-_AqIvP--bDoKqdQtJeZUjcvxxfamUBuAD-pXl4aSv0rAeXYl7FguBfRTxfVfggkFs5TE&usqp=CAc",
+            "image": "ladies-base-layer.jpg"
+          }
+        },
+        {
+          "pk": 88,
+          "model": "products.product",
+          "fields": {
+            "sku": "pp5001340288",
+            "name": "Wrist Bands",
+            "description": "Don't let sweat ruin your focus and concentration during intense sport by wearing the Nike Swoosh Wristband 2 Pack. Featuring a one-size-fits-all stretch fit and complete with a Nike Swoosh to either sweatband.",
+            "price": 4.55,
+            "category": 13,
+            "rating": 4.1,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUWgGZ__2f3551sgY78k6fOxOdepbXxgaQAsP9X7acwVkG3mMdm8SPHsLqusrsPv-wJt0zEDI2&usqp=CAc",
+            "image": "arm-bands.jpg"
+          }
+        },
+        {
+          "pk": 89,
+          "model": "products.product",
+          "fields": {
+            "sku": "pp5001340289",
+            "name": "Snood Unisex",
+            "description": "The Nike Strike Snood is perfect for training sessions or everyday wear, featuring a lightweight fleece construction with flat lock seams for a warm and comfortable fit, completed with the Nike Swoosh branding.",
+            "price": 9.99,
+            "category": 13,
+            "rating": 4.2,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2Ekl3g0qGNUVhJD8TyzjVb7T5CogIKUo6c6_eV9Xn-KX4RpiiYSNxvOje0Qjjb5FTfiK-WoQa&usqp=CAc",
+            "image": "snood.jpg"
+          }
+        },
+        {
+          "pk": 90,
+          "model": "products.product",
+          "fields": {
+            "sku": "pp5001340290",
+            "name": "Tri Fold Towel",
+            "description": "Ideal for any sports person, the Callaway Tri Fold Towel brings a highly absorbent and easily transportable piece of equipment.",
+            "price": 4.99,
+            "category": 13,
+            "rating": 4.1,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShBxH8U8wpcCpiS7Bypp6SaJ46VVP2OcW_Ubx-1YNO8hClNNeOTkYunzAo4CT5ivxo6ch4g_z3&usqp=CAc",
+            "image": "towel.jpg"
+          }
+        },
+        {
+          "pk": 91,
+          "model": "products.product",
+          "fields": {
+            "sku": "pp5001340291",
+            "name": "Water Bottles ",
+            "description": "Keep your thirst quenched when you're exercising with the Nike Water Bottle, featuring a screw cap for easy refills and a Nike Swoosh and stripe design to the centre.",
+            "price":4.99,
+            "category": 14,
+            "rating": 4.5,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNIqn_GB58uZZkWg0OJ9JtBfziIH9K8yYDYoBi_qkw_cHMcgPxM4UfCn9Eiz6kjIbSSMcgem5_&usqp=CAc",
+            "image": "bottles.jpg"
+          }
+        },
+        {
+          "pk": 92,
+          "model": "products.product",
+          "fields": {
+            "sku": "pp5001340292",
+            "name": "Training Cones",
+            "description": "The classic Diamond Spacemarker training cone is a staple in any football training session. This product is made with non-recycled plastic and UV filters for a true and bright colour.",
+            "price":9.99,
+            "category": 14,
+            "rating": 4.2,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzcGzLzCQDv_kjfXgld0ZANAjopik9xuPAFQ&usqp=CAU",
+            "image": "cones.jpg"
+          }
+        },
+        {
+          "pk": 93,
+          "model": "products.product",
+          "fields": {
+            "sku": "pp5001340293",
+            "name": "Spike Poles",
+            "description": "Pole made up of durable PVC plastic. Bottom spring is covered with Molded rubber to avoid injuries.",
+            "price": 3.99,
+            "category": 14,
+            "rating": 4.1,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuu0779TAwun6RSSxte2tGTbbSjSIkRe3-dw&usqp=CAU",
+            "image": "spike-pole.jpg"
+          }
+        },
+        {
+          "pk": 94,
+          "model": "products.product",
+          "fields": {
+            "sku": "pp5001340294",
+            "name": "Hurdles",
+            "description": "The Sondico Hurdle is an essential for training sessions",
+            "price":4.95,
+            "category": 14,
+            "rating": 4.5,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJIO_ELqwpngG4F74sR7KTY7CkndWQzGN5CMNwMThNVFbnKADGiu2iKZVDfpVtMW5akoBPdUk&usqp=CAc",
+            "image": "hurdle.jpg"
           }
         }
  ]
