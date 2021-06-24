@@ -34,7 +34,7 @@ All users are granted access to register and create their account with ‘Sports
  
 If the user is also an admin and logged in as an admin then they will have access to conduct any works that are needed for the website. Those works could be adding new products to the website or changing specific pricing for products.
 
-<div align="right"><p style="text-align: right"><a href="#table-of-contents">Back to top</a></p></div>
+<div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>
 
 # User Stories
 - ### As a Site User/Customer, I would like to:
@@ -77,7 +77,7 @@ If the user is also an admin and logged in as an admin then they will have acces
     - Added edit and remove buttons for the admin to update details or remove the product. 
     - Added an upload images function in the update and add products section. 
 
-<div align="right"><p style="text-align: right"><a href="#table-of-contents">Back to top</a></p></div>
+<div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>
 
 # Database
 Data Structure was pre-planned for this project, so the categories can be stored including the products linked to individual categories and all the product details. Besides this the user profile details will be stored including the orders they have made: 
@@ -97,7 +97,7 @@ This website has given the user to create their profile where they can save the 
 
 Another this visible on the profile page is the order history where all the order details are brought in. These details are also brought in when the purchase is completed to show the user full details of the order. Items stored in this scenario are order number, order date, order items, full name, phone number, full address, order total, delivery cost and the total. 
 
-<div align="right"><p style="text-align: right"><a href="#table-of-contents">Back to top</a></p></div>
+<div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>
 
 # Wireframes
 
@@ -144,7 +144,7 @@ Another this visible on the profile page is the order history where all the orde
   <img src="static/images/Signin.png" alt="Sign In Page wireframe" width="600"/>
 </p>
 
-<div align="right"><p style="text-align: right"><a href="#table-of-contents">Back to top</a></p></div>
+<div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>
 
 # Views and Features
 
@@ -213,7 +213,7 @@ To deploy this project to heroku procedure explained below was followed:
   - Within settings sections create config vars, these are the same as environment variables Gitpod environment. These are used here as they cant be found on the GitHub page so will need to be set up on Heroku to get the application working.
   - Automatic Deployment will need to be enabled on the settings page so that Heroku runs the most recent update
 
-<div align="right"><p style="text-align: right"><a href="#table-of-contents">Back to top</a></p></div>
+<div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>
 
 # Technologies and Tools Used
 
@@ -222,4 +222,4 @@ To deploy this project to heroku procedure explained below was followed:
 # Acknowledgements
 I would like to thank code institute for an amazing opportunity to learn and devlop my skills in web development field. I appreciate all the help and support provided through the modules, tutor assistance and many other ways of assistance. Felipe, my mentor, has once again been a great help for guiding me to the correct path, supporting me at every step of this journey and for rescuing me from any unwanted situation. Additional help provided by my mentor through mentor sessions on weekly bases really built my confidence, morale and knowledge up to achieve this goal. I would like to thank all the tutors from tutor support, who helped me resolve the issues I had by guiding me towards the solution. Also, technologies I have used, such as Boutique Ado Project and Slack to help me achieve the final version of this site.
 
-<div align="right"><p style="text-align: right"><a href="#table-of-contents">Back to top</a></p></div>
+<div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>
