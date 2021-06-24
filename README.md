@@ -3,8 +3,8 @@
 - [Description](#description)
 - [UX](#ux)
 - [User Stories](#user-stories)
-- [Wireframes](#wireframes)
 - [Database](#database)
+- [Wireframes](#wireframes)
 - [Deployment](#deployment)
 - [Features](#features)
 - [Technologies and Tools Used](#technologies-and-tools-used)
@@ -88,9 +88,57 @@ This website has been created to sell products for Men, Women, Kids and Accessor
 
 Given the categories, I had to work on the products that will be allocated to these categories. As mentioned above there are two types of products, clothing and equipment. These products consist of storage for the id, SKU, name, description, the category they are allocated to, has_sizes if they are in clothing categories, price, image_url, image.
 
-Once the user adds a product to the shopping bag there is an order line, where the product details are brought in from the storage. The details brought in are the Order, Product, Product Size is chosen, Quantity, Total.
+Once the user adds a product to the shopping bag there is an order line, where the product details are brought in from the storage. The details brought in are the Order, Product, Product Size if chosen, Quantity and Total.
+
+This website has given the user to create their profile where they can save the details attracting user to visit back to make further orders with ease. To achieve this the user id, user, full name, the full address is stored. These details are requested when the user visits the profile page and also can be amended there if needed. 
+
+Another this visible on the profile page is the order history where all the order details are brought in. These details are also brought in when the purchase is completed to show the user full details of the order. Items stored in this scenario are order number, order date, order items, full name, phone number, full address, order total, delivery cost and the total. 
 
 # Wireframes
+
+- Wireframes were made at the start of the project to create a specific framework for this website. 
+### **Wireframe Screenshots:**
+<p align="center">Home Page Wireframe</p>
+<p align="center">
+  <img src="static/images/Home.png" alt="Home-Page wireframe" width="600"/>
+</p>
+<p align="center">Prodcuts Page Wireframe</p>
+<p align="center">
+  <img src="static/images/Products.png" alt="Prodcuts-Page wireframe" width="600"/>
+</p>
+<p align="center">Product Details Page Wireframe</p>
+<p align="center">
+  <img src="static/images/ProductDetails.png" alt="Product Details wireframe" width="600"/>
+</p>
+<p align="center">Product Management Wireframe</p>
+<p align="center">
+  <img src="static/images/ProductManagement.png" alt="Product Management wireframe" width="600"/>
+</p>
+<p align="center">Profile Page Wireframe</p>
+<p align="center">
+  <img src="static/images/Profile.png" alt="Profile Page wireframe" width="600"/>
+</p>
+<p align="center">Shopping Bag Page Wireframe</p>
+<p align="center">
+  <img src="static/images/ShoppingBag.png" alt="Shopping Bag Page wireframe" width="600"/>
+</p>
+<p align="center">Checkout Page Wireframe</p>
+<p align="center">
+  <img src="static/images/Checkout.png" alt="Checkout Page wireframe" width="600"/>
+</p>
+<p align="center">Order Confirmation Page Wireframe</p>
+<p align="center">
+  <img src="static/images/Confirmation.png" alt="Order Confirmation Page wireframe" width="600"/>
+</p>
+<p align="center">Register Page Wireframe</p>
+<p align="center">
+  <img src="static/images/Register.png" alt="Sign Up Page wireframe" width="600"/>
+</p>
+<p align="center">Sign In Page Wireframe</p>
+<p align="center">
+  <img src="static/images/Signin.png" alt="Sign In Page wireframe" width="600"/>
+</p>
+
 # views and Features
 # Deployment
 # Technologies and Tools Used
