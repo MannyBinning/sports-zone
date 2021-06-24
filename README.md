@@ -148,6 +148,23 @@ Another this visible on the profile page is the order history where all the orde
 
 # Views and Features
 # Deployment
+### Deploying to Heroku 
+To deploy this project to heroku procedure explained below was followed: 
+  - To begin with an app called 'sports-zone-manny' was created on Heroku.
+  - Via "heroku login -i" in the command line I logged in to Heroku.  
+  - To use Postgres I installed "dj_database_url" and "psycopg2-binary" ensuring Heroku will install all the app requirements when deployed.
+  - In settings file I added the database URL from Heroku, which can be found in config variables in app settings tab.  
+  - Once this wasd achieved I ran migrations and loaded the categories and products. 
+  - Then I took out the database url to stop it from getting added in the version control.
+  - Back in the Gitpod workspace I installed gunicorn using pip3 install method.
+  - Then a Procfile was creating a web dyno allowing to run unicorn and serve the django app. 
+  - Once acheived, the static file collection was disabled so that Heroku didnt collect the static files when deploying. 
+  - Within the settings file, I added 'sports-zone-manny.herokuapp.com' to the list of ALLOWED_HOSTS.
+  - Once all these changes were commited, I then pushed them to both GitHun and Heroku master branch.
+  - On the deploy screen, select GitHub in the deployment section and select your app from the options of your GitHub repositories.
+  - Within settings sections create config vars, these are the same as environment variables Gitpod environment. These are used here as they cant be found on the GitHub page so will need to be set up on Heroku to get the application working.
+  - Automatic Deployment will need to be enabled on the settings page so that Heroku runs the most recent update
+
 # Technologies and Tools Used
 # Testing
 # Acknowledgements
