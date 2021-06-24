@@ -6,7 +6,7 @@
 - [Database](#database)
 - [Wireframes](#wireframes)
 - [Deployment](#deployment)
-- [Views and Features](#features)
+- [Views and Features](#views-and-features)
 - [Technologies and Tools Used](#technologies-and-tools-used)
 - [Testing](#testing)
 - [Acknowledgements](#acknowledgements)
@@ -33,7 +33,9 @@ To complete the purchase, a link at the bottom of the ‘shopping bag’ page is
 All users are granted access to register and create their account with ‘Sports Zone’. To register or login into an account, the user will need to select the ‘my account’ feature which is displayed on every page on the website. Once an account is created, the user is provided with a profile page that will display personal details and all previous and current purchases with ‘Sports Zone’.
  
 If the user is also an admin and logged in as an admin then they will have access to conduct any works that are needed for the website. Those works could be adding new products to the website or changing specific pricing for products.
- 
+
+<div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>
+
 # User Stories
 - ### As a Site User/Customer, I would like to:
     - Understand the range of products available for purchase.
@@ -75,6 +77,8 @@ If the user is also an admin and logged in as an admin then they will have acces
     - Added edit and remove buttons for the admin to update details or remove the product. 
     - Added an upload images function in the update and add products section. 
 
+<div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>
+
 # Database
 Data Structure was pre-planned for this project, so the categories can be stored including the products linked to individual categories and all the product details. Besides this the user profile details will be stored including the orders they have made: 
 
@@ -92,6 +96,8 @@ Once the user adds a product to the shopping bag there is an order line, where t
 This website has given the user to create their profile where they can save the details attracting user to visit back to make further orders with ease. To achieve this the user id, user, full name, the full address is stored. These details are requested when the user visits the profile page and also can be amended there if needed. 
 
 Another this visible on the profile page is the order history where all the order details are brought in. These details are also brought in when the purchase is completed to show the user full details of the order. Items stored in this scenario are order number, order date, order items, full name, phone number, full address, order total, delivery cost and the total. 
+
+<div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>_
 
 # Wireframes
 
@@ -138,9 +144,13 @@ Another this visible on the profile page is the order history where all the orde
   <img src="static/images/Signin.png" alt="Sign In Page wireframe" width="600"/>
 </p>
 
+<div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>_
+
 # Views and Features
 # Deployment
 # Technologies and Tools Used
 # Testing
 # Acknowledgements
 I would like to thank code institute for an amazing opportunity to learn and devlop my skills in web development field. I appreciate all the help and support provided through the modules, tutor assistance and many other ways of assistance. Felipe, my mentor, has once again been a great help for guiding me to the correct path, supporting me at every step of this journey and for rescuing me from any unwanted situation. Additional help provided by my mentor through mentor sessions on weekly bases really built my confidence, morale and knowledge up to achieve this goal. I would like to thank all the tutors from tutor support, who helped me resolve the issues I had by guiding me towards the solution. Also, technologies I have used, such as Boutique Ado Project and Slack to help me achieve the final version of this site.
+
+<div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>_
