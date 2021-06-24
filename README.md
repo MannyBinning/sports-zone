@@ -34,7 +34,7 @@ All users are granted access to register and create their account with ‘Sports
  
 If the user is also an admin and logged in as an admin then they will have access to conduct any works that are needed for the website. Those works could be adding new products to the website or changing specific pricing for products.
 
-<div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>
+<div align="right"><p style="text-align: right"><a href="#table-of-content">Back to top</a></p></div>
 
 # User Stories
 - ### As a Site User/Customer, I would like to:
@@ -77,7 +77,7 @@ If the user is also an admin and logged in as an admin then they will have acces
     - Added edit and remove buttons for the admin to update details or remove the product. 
     - Added an upload images function in the update and add products section. 
 
-<div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>
+<div align="right"><p style="text-align: right"><a href="#table-of-content">Back to top</a></p></div>
 
 # Database
 Data Structure was pre-planned for this project, so the categories can be stored including the products linked to individual categories and all the product details. Besides this the user profile details will be stored including the orders they have made: 
@@ -97,7 +97,7 @@ This website has given the user to create their profile where they can save the 
 
 Another this visible on the profile page is the order history where all the order details are brought in. These details are also brought in when the purchase is completed to show the user full details of the order. Items stored in this scenario are order number, order date, order items, full name, phone number, full address, order total, delivery cost and the total. 
 
-<div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>_
+<div align="right"><p style="text-align: right"><a href="#table-of-content">Back to top</a></p></div>
 
 # Wireframes
 
@@ -144,10 +144,58 @@ Another this visible on the profile page is the order history where all the orde
   <img src="static/images/Signin.png" alt="Sign In Page wireframe" width="600"/>
 </p>
 
-<div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>_
+<div align="right"><p style="text-align: right"><a href="#table-of-content">Back to top</a></p></div>
 
 # Views and Features
+
 # Deployment
+### Github Deployment
+To deploy the project on Github, I created a repository called "sports-zone" and included the Code Institute template.
+As I was using gitpod, throughout the project journey, I updated the variables in Gitpod Settings such as:
+  - SECRET_KEY = "YOUR_DJANGO_SECRET_KEY"
+  - STRIPE_PUBLIC_KEY = "YOUR_STRIPE_PUBLIC_KEY"
+  - STRIPE_SECRET_KEY = "YOUR_STRIPE_SECRET_KEY"
+  - STRIPE_WH_SECRET = "YOUR_STRIPE_WEBHOOK_SECRET"
+  - DEVELOPMENT = "True"
+
+To help acheive the target of this website there were various packages installed through out the project:
+  - Django 
+  - Django AllAuth 
+  - Pillow 
+  - Django Crispy Forms
+  - Stripe
+  - Django Countries
+  - DJ Database URL
+  - Psycopg2
+  - Gunicorn
+  - Boto3
+  - Django Storages
+Every time an installation was done, it was stored into requirements.txt file. 
+
+To start the project with django, django-admin startproject was used which created many useful apps for this project. 
+
+When the changes were made for updating purpose in the project, the migrations were done using following steps:
+  - python3 manage.py makemigrations --dry-run
+  - python3 manage.py makemigrations
+  - python3 manage.py migrate --plan
+  - python3 manage.py migrate
+
+To load the data created in json files following commads were used: 
+  - python3 manage.py loaddata products
+  - python3 manage.py loaddata categoriess
+
+Django has a built-in admin feature to aurthorise superusers to log in ammend the products by updating, adding or removing them and to acheive this I used:
+  - python3 manage.py createsuperuser
+
+In this project I also used a system known as Amazon S3 Bucket, where I created a bucked named 'sports-zone'. Once the bucket was created I enabled it for public access and enable the website to host static files. Following the steps from Boutique Ado Mini Project, I also added CORD config. To create the bucket I selected a S3 policy which then provided me with an ARN number. 
+Once Bucket was set up I created a user in IAM. To run this successfully I attached a pre-built policy named amazonS3FullAccess. Once created, I attached this policy to the group created. 
+Once the group was created I added User to hold the static files granting it progromatic access. Once all done, I was provided with the Access Key ID and Secret Access Key. Which were then added to Heroku Variables. 
+
+Once the S3 bucket was created, I connected Django to the bucket and to acheieve that boto3 and django storages were installed. After this the variables were added tho the settings file so they can only be called when the value is True in the Heroku Environment. 
+AWS_STORAGE_BUCKET_NAME
+AWS_S3_REGION_NAME
+AWS_S3_CUSTOM_DOMAIN
+
 ### Deploying to Heroku 
 To deploy this project to heroku procedure explained below was followed: 
   - To begin with an app called 'sports-zone-manny' was created on Heroku.
@@ -165,9 +213,13 @@ To deploy this project to heroku procedure explained below was followed:
   - Within settings sections create config vars, these are the same as environment variables Gitpod environment. These are used here as they cant be found on the GitHub page so will need to be set up on Heroku to get the application working.
   - Automatic Deployment will need to be enabled on the settings page so that Heroku runs the most recent update
 
+<div align="right"><p style="text-align: right"><a href="#table-of-content">Back to top</a></p></div>
+
 # Technologies and Tools Used
+
 # Testing
+
 # Acknowledgements
 I would like to thank code institute for an amazing opportunity to learn and devlop my skills in web development field. I appreciate all the help and support provided through the modules, tutor assistance and many other ways of assistance. Felipe, my mentor, has once again been a great help for guiding me to the correct path, supporting me at every step of this journey and for rescuing me from any unwanted situation. Additional help provided by my mentor through mentor sessions on weekly bases really built my confidence, morale and knowledge up to achieve this goal. I would like to thank all the tutors from tutor support, who helped me resolve the issues I had by guiding me towards the solution. Also, technologies I have used, such as Boutique Ado Project and Slack to help me achieve the final version of this site.
 
-<div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>_
+<div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>
