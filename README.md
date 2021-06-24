@@ -5,10 +5,10 @@
 - [User Stories](#user-stories)
 - [Database](#database)
 - [Wireframes](#wireframes)
-- [Deployment](#deployment)
 - [Views and Features](#views-and-features)
-- [Technologies and Tools Used](#technologies-and-tools-used)
+- [Deployment](#deployment)
 - [Testing](#testing)
+- [Technologies and Tools Used](#technologies-and-tools-used)
 - [Acknowledgements](#acknowledgements)
 
 
@@ -215,9 +215,25 @@ To deploy this project to heroku procedure explained below was followed:
 
 <div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>
 
+# Testing
+
 # Technologies and Tools Used
 
-# Testing
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3](https://en.wikipedia.org/wiki/CSS)
+- [JavaScript](https://en.wikipedia.org/wiki/JQuery) / [JQuery](https://en.wikipedia.org/wiki/JavaScript)
+- [Python](https://en.wikipedia.org/wiki/Python_(programming_language))
+- [Django](https://www.djangoproject.com/)
+- [Bootstrap4](https://getbootstrap.com/) was used to organise the content in a grid format. 
+- [Balsmiq](https://balsamiq.com/) was used to create the wireframes.
+- [Google Font](https://fonts.google.com/)  was used all through the website for font.
+- [Font Awesome](https://fontawesome.com/) was used for the icons used for the website. 
+- [TinyPNG](https://tinypng.com/) was used to compress the images without making any changes to the size. 
+- [Heroku](https://dashboard.heroku.com/apps) / [GitHub](https://github.com/) for deployment. 
+- [Boutique Ado Mini Project](https://github.com/Code-Institute-Solutions/boutique_ado_v1/tree/250e2c2b8e43cccb56b4721cd8a8bd4de6686546) for guiding me through the whole project with detailed information on anything needed for this project. 
+
+
+<div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>
 
 # Acknowledgements
 I would like to thank code institute for an amazing opportunity to learn and devlop my skills in web development field. I appreciate all the help and support provided through the modules, tutor assistance and many other ways of assistance. Felipe, my mentor, has once again been a great help for guiding me to the correct path, supporting me at every step of this journey and for rescuing me from any unwanted situation. Additional help provided by my mentor through mentor sessions on weekly bases really built my confidence, morale and knowledge up to achieve this goal. I would like to thank all the tutors from tutor support, who helped me resolve the issues I had by guiding me towards the solution. Also, technologies I have used, such as Boutique Ado Project and Slack to help me achieve the final version of this site.
