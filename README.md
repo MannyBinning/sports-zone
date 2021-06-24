@@ -6,10 +6,9 @@
 - [Database](#database)
 - [Wireframes](#wireframes)
 - [Deployment](#deployment)
-- [Features](#features)
+- [Views and Features](#features)
 - [Technologies and Tools Used](#technologies-and-tools-used)
 - [Testing](#testing)
-- [Credits](#credits)
 - [Acknowledgements](#acknowledgements)
 
 
@@ -139,9 +138,9 @@ Another this visible on the profile page is the order history where all the orde
   <img src="static/images/Signin.png" alt="Sign In Page wireframe" width="600"/>
 </p>
 
-# views and Features
+# Views and Features
 # Deployment
 # Technologies and Tools Used
 # Testing
-# Credits
 # Acknowledgements
+I would like to thank code institute for an amazing opportunity to learn and devlop my skills in web development field. I appreciate all the help and support provided through the modules, tutor assistance and many other ways of assistance. Felipe, my mentor, has once again been a great help for guiding me to the correct path, supporting me at every step of this journey and for rescuing me from any unwanted situation. Additional help provided by my mentor through mentor sessions on weekly bases really built my confidence, morale and knowledge up to achieve this goal. I would like to thank all the tutors from tutor support, who helped me resolve the issues I had by guiding me towards the solution. Also, technologies I have used, such as Boutique Ado Project and Slack to help me achieve the final version of this site.
