@@ -170,45 +170,45 @@ To help acheive the target of this website there were various packages installed
   - Gunicorn
   - Boto3
   - Django Storages
-Every time an installation was done, it was stored into requirements.txt file. 
+Every time an installation was done, it was stored in a requirements.txt file. 
 
-To start the project with django, django-admin startproject was used which created many useful apps for this project. 
+To start the project with Django, the django-admin startproject was used which created many useful apps for this project. 
 
-When the changes were made for updating purpose in the project, the migrations were done using following steps:
+When the changes were made for updating purpose in the project, the migrations were done using the following steps:
   - python3 manage.py makemigrations --dry-run
   - python3 manage.py makemigrations
   - python3 manage.py migrate --plan
   - python3 manage.py migrate
 
-To load the data created in json files following commads were used: 
+To load the data created in JSON files following commands were used: 
   - python3 manage.py loaddata products
-  - python3 manage.py loaddata categoriess
+  - python3 manage.py loaddata categories
 
-Django has a built-in admin feature to aurthorise superusers to log in ammend the products by updating, adding or removing them and to acheive this I used:
+Django has a built-in admin feature to authorise superusers to log in amend the products by updating, adding or removing them and to achieve this I used:
   - python3 manage.py createsuperuser
 
-In this project I also used a system known as Amazon S3 Bucket, where I created a bucked named 'sports-zone'. Once the bucket was created I enabled it for public access and enable the website to host static files. Following the steps from Boutique Ado Mini Project, I also added CORD config. To create the bucket I selected a S3 policy which then provided me with an ARN number. 
+In this project, I also used a system known as Amazon S3 Bucket, where I created a bucked named 'sports-zone'. Once the bucket was created I enabled it for public access and enable the website to host static files. Following the steps from Boutique Ado Mini Project, I also added the CORD config. To create the bucket I selected an S3 policy which then provided me with an ARN number. 
 Once Bucket was set up I created a user in IAM. To run this successfully I attached a pre-built policy named amazonS3FullAccess. Once created, I attached this policy to the group created. 
-Once the group was created I added User to hold the static files granting it progromatic access. Once all done, I was provided with the Access Key ID and Secret Access Key. Which were then added to Heroku Variables. 
+Once the group was created I added User to hold the static files granting it programmatic access. Once all done, I was provided with the Access Key ID and Secret Access Key. Which were then added to Heroku Variables. 
 
-Once the S3 bucket was created, I connected Django to the bucket and to acheieve that boto3 and django storages were installed. After this the variables were added tho the settings file so they can only be called when the value is True in the Heroku Environment. 
+Once the S3 bucket was created, I connected Django to the bucket and to achieve that boto3 and Django storages were installed. After this, the variables were added to the settings file so they can only be called when the value is True in the Heroku environment. 
 AWS_STORAGE_BUCKET_NAME
 AWS_S3_REGION_NAME
 AWS_S3_CUSTOM_DOMAIN
 
 ### Deploying to Heroku 
-To deploy this project to heroku procedure explained below was followed: 
-  - To begin with an app called 'sports-zone-manny' was created on Heroku.
+To deploy this project to Heroku procedure explained below was followed: 
+  - To begin with, an app called 'sports-zone-manny' was created on Heroku.
   - Via "heroku login -i" in the command line I logged in to Heroku.  
   - To use Postgres I installed "dj_database_url" and "psycopg2-binary" ensuring Heroku will install all the app requirements when deployed.
-  - In settings file I added the database URL from Heroku, which can be found in config variables in app settings tab.  
-  - Once this wasd achieved I ran migrations and loaded the categories and products. 
-  - Then I took out the database url to stop it from getting added in the version control.
+  - In the settings file I added the database URL from Heroku, which can be found in the config variables in-app settings tab.  
+  - Once this was achieved I ran migrations and loaded the categories and products. 
+  - Then I took out the database URL to stop it from getting added to the version control.
   - Back in the Gitpod workspace I installed gunicorn using pip3 install method.
-  - Then a Procfile was creating a web dyno allowing to run unicorn and serve the django app. 
-  - Once acheived, the static file collection was disabled so that Heroku didnt collect the static files when deploying. 
+  - Then a Procfile was creating a web dyno allowing to run unicorn and serve the Django app. 
+  - Once achieved, the static file collection was disabled so that Heroku didn't collect the static files when deploying. 
   - Within the settings file, I added 'sports-zone-manny.herokuapp.com' to the list of ALLOWED_HOSTS.
-  - Once all these changes were commited, I then pushed them to both GitHun and Heroku master branch.
+  - Once all these changes were committed, I then pushed them to both GitHub and Heroku master branch.
   - On the deploy screen, select GitHub in the deployment section and select your app from the options of your GitHub repositories.
   - Within settings sections create config vars, these are the same as environment variables Gitpod environment. These are used here as they cant be found on the GitHub page so will need to be set up on Heroku to get the application working.
   - Automatic Deployment will need to be enabled on the settings page so that Heroku runs the most recent update
@@ -216,6 +216,15 @@ To deploy this project to heroku procedure explained below was followed:
 <div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>
 
 # Testing
+### Navigation 
+### Home Page
+### Products Page
+### Product Details Page
+### Product Management Page
+### Profile Page
+### Shopping Bag Page 
+### Checkout Page 
+### Checkout Success Page
 
 # Technologies and Tools Used
 
@@ -236,6 +245,6 @@ To deploy this project to heroku procedure explained below was followed:
 <div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>
 
 # Acknowledgements
-I would like to thank code institute for an amazing opportunity to learn and devlop my skills in web development field. I appreciate all the help and support provided through the modules, tutor assistance and many other ways of assistance. Felipe, my mentor, has once again been a great help for guiding me to the correct path, supporting me at every step of this journey and for rescuing me from any unwanted situation. Additional help provided by my mentor through mentor sessions on weekly bases really built my confidence, morale and knowledge up to achieve this goal. I would like to thank all the tutors from tutor support, who helped me resolve the issues I had by guiding me towards the solution. Also, technologies I have used, such as Boutique Ado Project and Slack to help me achieve the final version of this site.
+I would like to thank code institute for an amazing opportunity to learn and develop my skills in the web development field. I appreciate all the help and support provided through the modules, tutor assistance and many other ways of assistance. Felipe, my mentor, has once again been a great help for guiding me to the correct path, supporting me at every step of this journey and for rescuing me from any unwanted situation. Additional help provided by my mentor through mentor sessions weekly built my confidence, morale and knowledge up to achieve this goal. I would like to thank all the tutors from tutor support, who helped me resolve the issues I had by guiding me towards the solution. Also, technologies I have used, such as Boutique Ado Project and Slack to help me achieve the final version of this site.
 
 <div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>
