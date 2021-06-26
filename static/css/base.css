@@ -100,7 +100,6 @@ input[name='q']::placeholder {
 }
 
 /* ------------------------------- bootstrap toasts */
-
 .message-container {
     position: fixed;
     top: 72px;
@@ -229,6 +228,8 @@ input[name='q']::placeholder {
 .allauth-form-inner-content a {
 	color: #17a2b8; /* text-info */
 }
+
+
 
 /* Product Form */
 

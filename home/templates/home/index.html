@@ -12,7 +12,7 @@
 {% block content %}
     <div class="container h-100 text-center">
         <div class="row h-100">
-            <div class="col-7 col-md-12 mt-5 my-auto">
+            <div class="col-12 mt-5 my-auto">
                 <h1 class="display-4 logo-font text-black">
                     Latest Equipment Available!
                 </h1>
@@ -23,6 +23,13 @@
                 </div>
             </div>    
         </div>
+        <div class="banner">
+            <h4>Free delivery on orders over ${{ free_delivery_threshold }}!</h4>  
+            <div class="circle">
+                <span></span>
+                <span></span> 
+                <span></span>                           
+            </div>            
+        </div>
     </div>
-
 {% endblock %}
