@@ -216,25 +216,84 @@ To deploy this project to Heroku procedure explained below was followed:
 <div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>
 
 # Testing
+All the code for this website was validated:
+- HTML Validation Tested through [W3C](https://validator.w3.org/#validate_by_uri)
+- CSS Validation tested throught [W3C CSS](https://jigsaw.w3.org/css-validator/validator)
+- Python Validation Tested through [PEP8](http://pep8online.com/) 
+
 ### Navigation 
  - Navigation contains five dropdown links, all working fine including the links within each dropdown menu. 
- - Account icon included in the navigation drops down links including Register, Login if the user isn't logged in.
- - If the user is logged in, the dropdown menu shoes Profile link and logout. 
- - If the user is logged in as admin the drop down menu also shows product management link. 
+ - Search Bar functionality has been tested and brings up relevant items searched for. 
+ - Account icon included in the navigation drops down links including Register, log in if the user isn't logged in.
+ - If the user is logged in, the dropdown menu shows the Profile link and logout. 
+ - If the user is logged in as admin the drop-down menu also shows the product management link. 
  - Shopping bag updated accordingly with the price when a product is added to the shopping bag. 
  - All these functions have been tested on smaller devices as well where the menu is collapsed. 
- 
+
 ### Home Page
+- Home page consists of a Hero image which including a Message with a 'Shop Now' button. 
+- Button leads you on the all products page as expected. 
+- Testing on smaller devices works well including the message being kept in the middle of the screen. 
+
 ### Products Page
+- Products Page consists of all the product images and correct information with each item listed. 
+- Number of items are displayed correctly on the page. 
+- Back to top button is working correctly to ease the user to the top of the page.
+- Sort by functionality has been tested and it arranges the items accordingly as per the user's request. 
+
 ### Product Details Page
+- Product Detail page contains an image of the product with a description and other relative information. 
+- Sizes choice only visible for relevant products and works fine if the user needs to select a size. 
+- Quantity is being changed upon request. 
+- If logged in as admin, the Edit button helps edit the product detail and the delete button removes the product. 
+- Keep Shopping button leads the user to the expected page.
+- Add to bag button adds the product in the shopping bag with an updated total and. 
+
 ### Product Management Page
+- All the fields ask for relevant information as expected and dropdown fields show the right options. 
+- Select image button allows the admin to add a relevant image for the product being added. 
+- Cancel button cancels the submission and leads the user to the products page. 
+- Add button adds the product and leads the user to the product details. 
+
 ### Profile Page
+- All the fields requesting appropriate details. 
+- Updated information button updates the user details accordingly. 
+- Order history visible if previous order has been made. 
+- Clicking on the order number leads the user onto order details. 
+
 ### Shopping Bag Page 
-### Checkout Page 
-### Checkout Success Page
+- An image is visible on the left side with the name, size, SKU and price of the product. 
+- Quantity section added and works as intended for the user to update the quantity. 
+- Where the update button changes the quantity, the remove button is also added to delete the product from the shopping bag. 
+- Item's subtotal is visible for the user. 
+- At the bottom of the page, the Bag total, delivery cost and the total is given and is calculated correctly. 
+- Keep Shopping button leads the user back to the products page. 
+- Checkout button guides the user to the checkout page. 
+
+### Checkout page and Payments
+- The checkout page loads with the correct details. 
+- The for provided is pre-filled if the user has saved the details on the profile page.
+- The items listed for purchase are displayed with appropriate information. 
+- If selected, the Check box saves the information in the form.
+- Adjust bag button leads the user back to the shopping bag. 
+- If all the details are correct, Complete the order runs the order and takes the payment via stripe.
+- If any required information is missing or incorrect details provided, a message is given accordingly with the cancellation reason.
+- Stripe payment works as expected, including the webhooks.
+
+### Toasts
+- The users are provided with a message in the top right corner every time an amendment is made. Such as if the user adds into the shopping bag, removes an item, updates any details, an appropriate message is shown. 
+- All the scenarios have been tested and working as expected. 
+- Toasts are coming up with an image and other product details. 
+- Delivery details are also shown in the toasts. 
+
+# Bug(s) and Resolution(s): 
+Bugs are a huge contribution towards learning, same in this profession every bug occurs, teaches you a lesson on how you may face problems and ways to find those solutions to overcome these problems. I faced a few problems during this journey listed as following including their resolution source:
+- First of all, the clothing items were set to have a size selection for the user, but all the items are set to have no sizes by default. Some of the products and categories were added (through JSON file) after adding this function therefore when loading the data everything was being set to have no sizes. To resolve this issue I finished the categories and products in JSON file first then added this functionality. 
+- Another bug faced was the shopping bag details, as they were not coming up correct. To resolve this I had to make changes in contect.py where "quantity=item_data" was updated to "quantity=quantity" which then brought up the correct details. 
+- Another bug faced was with the webhook, where 301 error was received on stripe. Every time a test webhook was being sent 301 error was received. As known in coding, most little mistakes can cause long delays. The resolution for this issue was just to add "/" at the end of the endpoint link added in stripe.
+
 
 # Technologies and Tools Used
-
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
 - [CSS3](https://en.wikipedia.org/wiki/CSS)
 - [JavaScript](https://en.wikipedia.org/wiki/JQuery) / [JQuery](https://en.wikipedia.org/wiki/JavaScript)
@@ -246,6 +305,8 @@ To deploy this project to Heroku procedure explained below was followed:
 - [Font Awesome](https://fontawesome.com/) was used for the icons used for the website. 
 - [TinyPNG](https://tinypng.com/) was used to compress the images without making any changes to the size. 
 - [Heroku](https://dashboard.heroku.com/apps) / [GitHub](https://github.com/) for deployment. 
+- [AWS](https://aws.amazon.com/) for storing static files. 
+- [Stripe](https://dashboard.stripe.com/test/dashboard) for payments and webhooks. 
 - [Boutique Ado Mini Project](https://github.com/Code-Institute-Solutions/boutique_ado_v1/tree/250e2c2b8e43cccb56b4721cd8a8bd4de6686546) for guiding me through the whole project with detailed information on anything needed for this project. 
 
 
