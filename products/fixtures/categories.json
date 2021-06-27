@@ -83,16 +83,16 @@
       "pk": 11,
       "model": "products.category",
       "fields": {
-        "name": "kids_football_clothing",
-        "friendly_name": "Kids Football Clothing"
+        "name": "kids_football_equipment",
+        "friendly_name": "Kids Football Equipment"
       }
     },
     {
       "pk": 12,
       "model": "products.category",
       "fields": {
-        "name": "kids_football_equipment",
-        "friendly_name": "Kids Football Equipment"
+        "name": "kids_football_clothing",
+        "friendly_name": "Kids Football Clothing"
       }
     },
     {

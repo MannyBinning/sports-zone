@@ -86,16 +86,16 @@ Data Structure was pre-planned for this project, so the categories can be stored
 <p align="center">
   <img src="static/images/database4.jpg" alt="Database" width="600"/>
 </p>
-
-This website has been created to sell products for Men, Women, Kids and Accessories for all, therefore, I have created categories that will contain the products for each gender and age. These four categories have been separated into two styles such as clothing categories and equipment categories. These categories consist of storage for the id, name and friendly name. 
-
-Given the categories, I had to work on the products that will be allocated to these categories. As mentioned above there are two types of products, clothing and equipment. These products consist of storage for the id, SKU, name, description, the category they are allocated to, has_sizes if they are in clothing categories, price, image_url, image.
-
-Once the user adds a product to the shopping bag there is an order line, where the product details are brought in from the storage. The details brought in are the Order, Product, Product Size if chosen, Quantity and Total.
-
-This website has given the user to create their profile where they can save the details attracting user to visit back to make further orders with ease. To achieve this the user id, user, full name, the full address is stored. These details are requested when the user visits the profile page and also can be amended there if needed. 
-
-Another this visible on the profile page is the order history where all the order details are brought in. These details are also brought in when the purchase is completed to show the user full details of the order. Items stored in this scenario are order number, order date, order items, full name, phone number, full address, order total, delivery cost and the total. 
+‘Sports Zone' has been created to sell a range of sporting products for Men, Women, Kids and Accessories for all. To distinguish each category, the website has clear-headed sections for users to browse. Each category has sub-categories for the two specific sports fields that ‘Sports Zone’ specialises in, Football and Cricket. As one of the main objectives of this website is simplicity, the sub-categories have also been divided into two separate sections, clothing and equipment. All categories consist of storage for the ID, name and friendly name.
+ 
+The products have been allocated to their specific fields on the website. The stored data for each product consist of ID, SKU, name, description, category, size, price, image URL and image.
+ 
+Once a product has been added to the online shopping bag, an order line is generated. The product details that are accumulated from the storage are order, product, product size, quantity and total.
+ 
+ 
+A profile page has been created to allow users to store their details to create ease for future purchases. The personal details that are stored on this page are user ID, user, full name, full address and telephone number. If required, the detail can also be amended by the user.
+ 
+The order history is available on each user's profile page. The information stored is; the order number, order date, order items, full name, phone number, full address, order total, delivery cost and the total. This data will also be applicable on the confirmation page once an order is completed. 
 
 <div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>
 
@@ -149,7 +149,7 @@ Another this visible on the profile page is the order history where all the orde
 # Views and Features
 
 # Deployment
-### Github Deployment
+### Local Deployment
 To deploy the project on Github, I created a repository called "sports-zone" and included the Code Institute template.
 As I was using gitpod, throughout the project journey, I updated the variables in Gitpod Settings such as:
   - SECRET_KEY = "YOUR_DJANGO_SECRET_KEY"
@@ -217,6 +217,13 @@ To deploy this project to Heroku procedure explained below was followed:
 
 # Testing
 ### Navigation 
+ - Navigation contains five dropdown links, all working fine including the links within each dropdown menu. 
+ - Account icon included in the navigation drops down links including Register, Login if the user isn't logged in.
+ - If the user is logged in, the dropdown menu shoes Profile link and logout. 
+ - If the user is logged in as admin the drop down menu also shows product management link. 
+ - Shopping bag updated accordingly with the price when a product is added to the shopping bag. 
+ - All these functions have been tested on smaller devices as well where the menu is collapsed. 
+ 
 ### Home Page
 ### Products Page
 ### Product Details Page
