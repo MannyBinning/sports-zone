@@ -16,10 +16,6 @@
 [Sports Zone](https://sports-zone-manny.herokuapp.com/) has been created to be a fictional e-commerce website. The main purpose of the website is to sell various sports products to individuals of all ages and sexualities. ‘Sports Zone’ specialises in two particular sports, football and cricket. The range of products is extremely diverse as the website sells items such as clothing to specialised equipment. 
 
 <p align="center">
-  <img src="static/images/responsive3.jpg" alt="Database" width="200" height="350"/>
-  <img src="static/images/responsive2.jpg" alt="Database" width="325" height="350"/>
-</p>
-<p align="center">
   <img src="static/images/responsive1.jpg" alt="Database" width="600"/>
 </p>
 
@@ -156,6 +152,24 @@ The order history is available on each user's profile page. The information stor
 <div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>
 
 # Views and Features
+### Header
+Following a similar pattern with the previous project, consistency and simplicity have been the main moto for this project. The header of all the pages has been kept the same. Logo on the left-hand side following the search bar allowing the user to search the products they are looking for in particular. An account Icon has been added on the right-hand side to guide the user onto the login, register or logout page followed by a shopping bag icon allowing the user to view the total cost of their shopping bag. With all features, the links in the navbar have been added to guide the user through the website.
+<p align="center">
+  <img src="static/images/header.jpg" alt="Sign In Page wireframe" width="600"/>
+</p>
+
+### Home Page
+The home page consists of a simple and relevant background image with a message displayed to attract users to shop with us. Users can use the navigation bar provided to guide their way through the site. Alternatively, the 'SHOP NOW' button is also present to lead the user onto the products Page. 
+<p align="center">
+  <img src="static/images/responsive1.jpg" alt="Database" width="600"/>
+</p>
+
+### Products Page
+The products page contains various features to make the site user friendly with the appropriate information. To begin with, several products loaded on the page is given for the users. Another feature added for the users is the sort out the dropdown menu, where the user can choose the order they would like to arrange products in. Following this, all the product images are given with relevant information such as product price category and ratings. The 'Back to top' button has also been added to ease the user back to the top of the page. If the user has selected to view the products via categories, all the categories will be listed on top of the page so the user knows the location.
+<p align="center">
+  <img src="static/images/products.jpg" alt="Database" width="600"/>
+</p>
+
 
 # Deployment
 ### Local Deployment
