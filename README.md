@@ -16,13 +16,14 @@
 [Sports Zone](https://sports-zone-manny.herokuapp.com/) has been created to be a fictional e-commerce website. The main purpose of the website is to sell various sports products to individuals of all ages and sexualities. ‘Sports Zone’ specialises in two particular sports, football and cricket. The range of products is extremely diverse as the website sells items such as clothing to specialised equipment. 
 
 <p align="left">
-  <img src="static/images/responsive3.jpg" alt="Database"/>
+  <img src="static/images/responsive3.jpg" alt="Database" width="200" height="350"/>
+  <img src="static/images/responsive2.jpg" alt="Database" width="325" height="350/>
 </p>
 <p align="right">
-  <img src="static/images/responsive2.jpg" alt="Database"/>
+  
 </p>
 <p align="center">
-  <img src="static/images/responsive1.jpg" alt="Database"/>
+  <img src="static/images/responsive1.jpg" alt="Database" width="600"/>
 </p>
 
 
