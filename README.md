@@ -15,6 +15,17 @@
 # Description
 [Sports Zone](https://sports-zone-manny.herokuapp.com/) has been created to be a fictional e-commerce website. The main purpose of the website is to sell various sports products to individuals of all ages and sexualities. ‘Sports Zone’ specialises in two particular sports, football and cricket. The range of products is extremely diverse as the website sells items such as clothing to specialised equipment. 
 
+<p align="left">
+  <img src="static/images/responsive3.jpg" alt="Database"/>
+</p>
+<p align="right">
+  <img src="static/images/responsive2.jpg" alt="Database"/>
+</p>
+<p align="center">
+  <img src="static/images/responsive1.jpg" alt="Database"/>
+</p>
+
+
 # UX
 The ‘Welcome page’ has been designed to make users easily aware of what type of products ‘Sports Zone’ distribute. To achieve this objective, a relevant background has been included to make it clear to all individuals what this website entails. Additionally, a ‘shop now’ button has been placed in the middle of the screen to establish an easily accessible way for the user to browse all products.
 
@@ -291,6 +302,7 @@ Bugs are a huge contribution towards learning, same in this profession every bug
 - First of all, the clothing items were set to have a size selection for the user, but all the items are set to have no sizes by default. Some of the products and categories were added (through JSON file) after adding this function therefore when loading the data everything was being set to have no sizes. To resolve this issue I finished the categories and products in JSON file first then added this functionality. 
 - Another bug faced was the shopping bag details, as they were not coming up correct. To resolve this I had to make changes in contect.py where "quantity=item_data" was updated to "quantity=quantity" which then brought up the correct details. 
 - Another bug faced was with the webhook, where 301 error was received on stripe. Every time a test webhook was being sent 301 error was received. As known in coding, most little mistakes can cause long delays. The resolution for this issue was just to add "/" at the end of the endpoint link added in stripe.
+- One unresolved bug for this project is the confirmation success page can be accessed by other users. Adding in required_login decorater meant unregistered users not being able to checkout successfully. This is something I will be working to find the right solution. 
 
 
 # Technologies and Tools Used

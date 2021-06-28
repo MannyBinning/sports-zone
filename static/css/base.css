@@ -316,3 +316,43 @@ input[name='q']::placeholder {
         padding: .25rem .5rem !important;
     }
 }
+
+#banner {
+    position: relative; display: flex;
+    align-items: center!important; justify-content: center;
+    width: 32rem !important; height: 20rem !important;
+    background: linear-gradient(60deg,#b9b905,#969602);
+    transform: perspective(1000px);
+    transform-style: preserve-3d;
+    border-radius: 20px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.20),
+                0 15px 12px rgba(218, 191, 191, 0.15);
+    transition:  all 180ms ease-out;               
+}
+
+#banner h4 {
+    color: #fff;
+    font-size: 2.2rem;
+    font-weight: 600;
+    font-family: 'Lato';
+    text-shadow: 0 0 22px rgba(0, 0, 0, 0.6);
+    transform: translateZ(40px);
+}
+
+.circle {
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+}
+
+.circle span {
+    display: inline-flex;
+    width: 0.5rem;
+    height: 0.5rem;
+    margin: 0 0.1rem;
+    border-radius: 25px;
+    background: #ffffff;
+    box-shadow: 0 0 22px rgba(0, 0, 0, 0.7);
+    transform:  translateZ(40px);
+}
+
