@@ -155,21 +155,55 @@ The order history is available on each user's profile page. The information stor
 ### Header
 Following a similar pattern with the previous project, consistency and simplicity have been the main moto for this project. The header of all the pages has been kept the same. Logo on the left-hand side following the search bar allowing the user to search the products they are looking for in particular. An account Icon has been added on the right-hand side to guide the user onto the login, register or logout page followed by a shopping bag icon allowing the user to view the total cost of their shopping bag. With all features, the links in the navbar have been added to guide the user through the website.
 <p align="center">
-  <img src="static/images/header.jpg" alt="Sign In Page wireframe" width="600"/>
+  <img src="static/images/header.jpg" alt="Header" width="600"/>
 </p>
 
 ### Home Page
 The home page consists of a simple and relevant background image with a message displayed to attract users to shop with us. Users can use the navigation bar provided to guide their way through the site. Alternatively, the 'SHOP NOW' button is also present to lead the user onto the products Page. 
 <p align="center">
-  <img src="static/images/responsive1.jpg" alt="Database" width="600"/>
+  <img src="static/images/responsive1.jpg" alt="Home" width="600"/>
 </p>
 
 ### Products Page
 The products page contains various features to make the site user friendly with the appropriate information. To begin with, several products loaded on the page is given for the users. Another feature added for the users is the sort out the dropdown menu, where the user can choose the order they would like to arrange products in. Following this, all the product images are given with relevant information such as product price category and ratings. The 'Back to top' button has also been added to ease the user back to the top of the page. If the user has selected to view the products via categories, all the categories will be listed on top of the page so the user knows the location.
 <p align="center">
-  <img src="static/images/products.jpg" alt="Database" width="600"/>
+  <img src="static/images/products.jpg" alt="Products page" width="600"/>
 </p>
 
+### Product Details Page
+The Product details page contains features such as the product image with full description and other details. If an item is available in different sizes, a size selecting dropdown is visible for the user. Quantity input is also available, where the user can choose how many items they want to add to the bag. If the user decides not to purchase the product, they can click on the 'keep shopping' button, which will lead them back to the products page. Clicking on the 'Add to bag' button, the item chosen is added into the shopping bag, where the total is updated accordingly. 
+<p align="center">
+  <img src="static/images/product-detail.jpg" alt="Product details" width="600"/>
+</p>
+
+### Toasts
+This feature has been added to keep the user informed about all the requestes they have made wether they are successfull, incorrect or a warning. For example, if a user decides to add a product into their shopping cart, they will get a toast at the top advising wether the product has been added. This toast contains a message to keep the customer updated on delivery cost. Products already added and the total cost is also visible for the user in this feature. 
+<p align="center">
+  <img src="static/images/toast.jpg" alt="Toast" width="200"/>
+</p>
+
+### Profile Page
+Profile page is created so the user can easily order again without having to add all the details again. This page contains features for the user to update their personal details as well as order history. Once clicked on the order number, user will be directed to that particular order details. All the details related to the product purchase are available for the user to view. 
+<p align="center">
+  <img src="static/images/profile.jpg" alt="profile" width="600"/>
+</p>
+
+### Shopping bag
+There are various features added on this page to ease the usage of this site for the user. User can view the products they are about to purchase on this page. Users can update the product quantity or remove them if required. Cost per product is provided on this page as well as subtotal, which is updated depending on the quantity of the product. This is all followed by additional details for the user to advise them of the total charges including delivery cost. If the user isn't qualified for the free delivery, a message with the remaining amount is given. 
+<p align="center">
+  <img src="static/images/shopping-bag.jpg" alt="shopping bag" width="600"/>
+</p>
+
+### Checkout
+This page contains a form, where the user must fill the required fields to complete the order. These details are pre-filled if the user has already registered and has saved the details in their profile. Followed by the form, a payment card input is included with the help of stripe. In this the user must fill in the correct card details in order to complete the purchase. On the right hand side of the page the order summary is provided so that the user is aware of the products being purchased. 
+<p align="center">
+  <img src="static/images/checkout.jpg" alt="checkout" width="600"/>
+</p>
+
+## Scalability
+As a developer, I will be working towards developing this project with new features suitable for the users. To enhance this website there will be following features added:
+- Various other sports products will be added with further details. 
+- I will allow the users to log in via social media, to achieve this, the social-auth-app-django library will be used. 
 
 # Deployment
 ### Local Deployment

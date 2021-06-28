@@ -135,9 +135,15 @@
             </div>
         </div>
     </div>
+    
     <div id="loading-overlay">
-        <img src="{% static 'images/ball.png' %}" alt="Spinning cricket ball showing that page is loading.">
+        <h1 class="text-light logo-font loading-spinner">
+            <span class="icon">
+                <i class="fas fa-spinner fa-spin"></i>
+            </span>
+        </h1>
     </div>
+    
 {% endblock %}
 
 {% block postloadjs %}

@@ -356,3 +356,44 @@ input[name='q']::placeholder {
     transform:  translateZ(40px);
 }
 
+.banner {
+    position: relative; display: flex!important;
+    align-items: center!important; justify-content: center!important;
+    width: 32rem !important; height: 20rem !important;
+    background: linear-gradient(60deg,#b9b905,#969602) !important;
+    transform: perspective(1000px) !important;
+    transform-style: preserve-3d !important;
+    border-radius: 20px !important;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.20),
+                0 15px 12px rgba(218, 191, 191, 0.15) !important;
+    transition:  all 180ms ease-out !important;               
+}
+
+.banner h4 {
+    color: #fff;
+    font-size: 2.2rem;
+    font-weight: 600;
+    font-family: 'Lato';
+    text-shadow: 0 0 22px rgba(0, 0, 0, 0.6);
+    transform: translateZ(40px);
+}
+
+.circle {
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+}
+
+.circle span {
+    display: inline-flex;
+    width: 0.5rem;
+    height: 0.5rem;
+    margin: 0 0.1rem;
+    border-radius: 25px;
+    background: #ffffff;
+    box-shadow: 0 0 22px rgba(0, 0, 0, 0.7);
+    transform:  translateZ(40px);
+}
+
+
+
