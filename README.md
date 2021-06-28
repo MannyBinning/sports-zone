@@ -205,6 +205,8 @@ As a developer, I will be working towards developing this project with new featu
 - Various other sports products will be added with further details. 
 - I will allow the users to log in via social media, to achieve this, the social-auth-app-django library will be used. 
 
+<div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>
+
 # Deployment
 ### Local Deployment
 To deploy the project on Github, I created a repository called "sports-zone" and included the Code Institute template.
@@ -350,6 +352,7 @@ Bugs are a huge contribution towards learning, same in this profession every bug
 - Another bug faced was with the webhook, where 301 error was received on stripe. Every time a test webhook was being sent 301 error was received. As known in coding, most little mistakes can cause long delays. The resolution for this issue was just to add "/" at the end of the endpoint link added in stripe.
 - One unresolved bug for this project is the confirmation success page can be accessed by other users. Adding in required_login decorater meant unregistered users not being able to checkout successfully. This is something I will be working to find the right solution. 
 
+<div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>
 
 # Technologies and Tools Used
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
