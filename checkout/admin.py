@@ -1,6 +1,8 @@
 from django.contrib import admin
 from .models import Order, OrderLineItem
 
+# Used boutique ado for this information.
+
 
 class OrderLineItemAdminInline(admin.TabularInline):
     model = OrderLineItem
@@ -27,5 +29,6 @@ class OrderAdmin(admin.ModelAdmin):
                     'grand_total',)
 
     ordering = ('-date',)
+
 
 admin.site.register(Order, OrderAdmin)

@@ -6,6 +6,8 @@ from .forms import UserProfileForm
 
 from checkout.models import Order
 
+# Used boutique ado for this information.
+
 
 @login_required
 def profile(request):
