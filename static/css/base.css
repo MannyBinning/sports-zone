@@ -23,14 +23,29 @@ body {
     text-transform: uppercase;
 }
 
+#topnav {
+    background-color: rgb(164,124,56);
+}
+
+#topnav2{
+    background-color: rgba(174,140,53,255);
+}
+
 .main-logo-link {
     width: fit-content;
 }
 
-.shop-now-button {
+.shop-button {
     background: black;
     color: white;
     min-width: 260px;
+}
+
+.shop-button:hover {
+	background-color: transparent;
+	color: white;
+	border: 5px solid black;
+	text-shadow: 2px 2px #000;
 }
 
 .btn-black {
