@@ -134,15 +134,17 @@
     {% block content %}
     {% endblock %}
 
+    {% block footer%}
+    <footer>
+        {% include 'includes/footer.html' %} 
+    </footer>
+    {% endblock %}
+
     {% block postloadjs %}
         <script type="text/javascript">
             $('.toast').toast('show');
         </script>
     {% endblock %}
+    </body>
 
-
-  </body>
-  <footer class="py-5 mt-5">
-    {% include 'includes/footer.html' %} 
-</footer>
 </html>
