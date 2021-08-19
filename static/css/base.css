@@ -8,7 +8,6 @@ body {
     height: 100%;
     color: #555;
     font-family: 'Lato';
-
     display: flex;
     flex-direction: column;
 }
@@ -300,7 +299,7 @@ input[name='q']::placeholder {
     }
 
     body {
-        height: calc(100vh - 116px);
+        height: 100%;
     }
 
     .display-4.logo-font.text-black {
@@ -333,13 +332,6 @@ input[name='q']::placeholder {
 
     .increment-qty, .decrement-qty {
         padding: .25rem .5rem !important;
-    }
-    
-    footer {
-        width:100%;
-        background-color:rgba(85,62,36,255);
-        padding:10px 0px 25px 0px;
-        margin-top: auto;
     }
 }
 

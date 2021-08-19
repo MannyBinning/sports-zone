@@ -116,11 +116,6 @@ LOGIN_REDIRECT_URL = '/'
 
 WSGI_APPLICATION = 'sports_zone.wsgi.application'
 
-
-DATABASES = {
-    'default': dj_database_url.parse('postgres://zomnhcwdjegkze:05cc61fc218a1d5eebcf131bba198d53631fb3b4bcc3c201bf2e64233c293256@ec2-52-19-170-215.eu-west-1.compute.amazonaws.com:5432/dfl7h6bkj0iat')
-}
-
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
