@@ -354,6 +354,12 @@ Bugs are a huge contribution towards learning, same in this profession every bug
 
 <div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>
 
+# Resubmission
+### Server Error fixed 
+### Added another model - Contact us 
+### HTML/CSS changes 
+### Images update 
+
 # Technologies and Tools Used
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
 - [CSS3](https://en.wikipedia.org/wiki/CSS)
