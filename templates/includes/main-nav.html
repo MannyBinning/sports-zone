@@ -78,7 +78,7 @@
         </li>
         
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black" href="#" id="specials-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="specials-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Accessories
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
@@ -87,5 +87,11 @@
                 <a href="{% url 'products' %}?category=accessories_clothing,accessories_equipment" class="dropdown-item">All Other Products</a>
             </div>
         </li>
+        <li class="nav-item">
+            <a class="logo-font font-weight-bold nav-link text-black" href="{% url 'contact' %}" id="specials-link" aria-haspopup="true" aria-expanded="false">
+                Contact Us
+            </a>
+        </li>
+
     </ul>
 </div>
