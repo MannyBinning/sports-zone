@@ -12,6 +12,7 @@
 {% block content %}
     <div class="overlay"></div>
     <div class="container-fluid pb-4">
+        <!--Title-->
         <div class="row">
             <div class="col-12 col-md-8 offset-md-2">
                 <hr>
@@ -19,13 +20,16 @@
                 <hr>
             </div>
         </div>
+        <!--Form For the message submission-->
         <div class="row">
             <div class="col-12 col-md-6 offset-md-3">
                 <form method="POST" enctype="multipart/form-data" class="form" action="{% url 'contact' %}">
                     {% csrf_token %}
                     {{ form|crispy }}
                     <div class="text-center">
+                        <!--Submit Button-->
                         <button class="btn btn-black text-uppercase py-2 mb-3 btn-block" type="submit">Submit</button>
+                        <!--Cancel Button to direct user to homepage-->
                         <a href="{% url 'home' %}" class="btn btn-outline-black text-uppercase py-2 mb-4 btn-block"><span class="icon"><i class="fas fa-chevron-left"></i></span> Cancel</a>
                     </div>
                 </form>
