@@ -355,10 +355,34 @@ Bugs are a huge contribution towards learning, same in this profession every bug
 <div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>
 
 # Resubmission
-### Server Error fixed 
-### Added another model - Contact us 
-### HTML/CSS changes 
-### Images update 
+Having aksed to resubmit this project has provided me with an opportunity to learn how to work with the feedback and use it in a best way to improve the project. Following points were addressed in the feedback to update the project to achieve higher potential. 
+
+### Server Error
+When an admin logged in, accessing product management led them to a 500 Server Error. Reading through the code, I realised there was an indentation error in  the code causing the error, which was resolved to get the functionality working. 
+<p align="center">
+  <img src="static/images/server-error.jpg" alt="Product details" width="600"/>
+</p>
+
+<hr>
+
+### Contact Us (Additional feature) 
+Another factor mentioned was to show a better understanding of how the models work through an additional Model. 'Contact Us' page has been added to make the website stand out as well as allowing the user to get in touch with the owner if any assistance is required. 
+<p align="center">
+  <img src="static/images/contact-us.jpg" alt="Product details" width="600"/>
+</p>
+This page consists of a simple header at the top followed by a form to submit the message. User is required to add their name, email and the message they'd like to submit. There have been two buttons added for the user to either submit the message or to cancel the submission which will lead them back to the home page. 
+
+<hr>
+
+### HTML/CSS
+The previous submission's feedback back mentioned the similarities the site had with the Boutique Ado project. Therefore I have made visual changes to make this project different. The Colour theme of this site has been completely amended, also, A footer containing social links has been added as well. The Colour theme of the navbar and the footer has been chosen to suit the hero image of the site. Additionally, the contact us page link has been added to the navbar. 
+<p align="center">
+  <img src="static/images/responsive1.jpg" alt="Product details" width="600"/>
+</p>
+Footer of the page includes a simple list of social links which lead the user to the page they'd wish to visit. 
+
+### Images
+For a website the quality is one of the most important factors, previous submission was lacking quality of the images. As the images on a site reflects the quality of the site as well therefore all the images in the site have been updated. 
 
 # Technologies and Tools Used
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
