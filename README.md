@@ -40,6 +40,8 @@ All users are granted access to register and create their account with ‘Sports
  
 If the user is also an admin and logged in as an admin then they will have access to conduct any works that are needed for the website. Those works could be adding new products to the website or changing specific pricing for products.
 
+At the end of every page their has been a Footer added for the user to select any social media link they'd like to visit for more information regarding the company. 
+
 <div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>
 
 # User Stories
@@ -148,6 +150,14 @@ The order history is available on each user's profile page. The information stor
 <p align="center">Sign In Page Wireframe</p>
 <p align="center">
   <img src="static/images/Signin.png" alt="Sign In Page wireframe" width="600"/>
+</p>
+
+<hr>
+
+<p align="center">Mobile App Wireframes</p>
+<p align="center">
+  <img src="static/images/mobile-app-home.png" alt="Sign In Page wireframe" width="200"/>
+  <img src="static/images/mobile-app-products.png" alt="Sign In Page wireframe" width="200"/>
 </p>
 
 <div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>
@@ -385,7 +395,7 @@ Footer of the page includes a simple list of social links which lead the user to
 <hr>
 
 ### Images
-For a website the quality is one of the most important factors, previous submission was lacking quality of the images. As the images on a site reflect the quality of the site, therefore, all the images on the site have been updated. The home page image has been selected from [UNSPLASH](https://unsplash.com/) and the product images were researched on different sites keeping the quality as a main priority. 
+For a website the quality is one of the most important factors, previous submission was lacking quality of the images. As the images on a site reflect the quality of the site, therefore, all the images on the site have been updated. The home page image has been selected from [UNSPLASH](https://unsplash.com/) and the product images were researched on different sites keeping the quality as a main priority. Additionally I have added wireframes to show the site preview on a mobile app as well. Images added above in wireframes section. 
 
 <div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>
 
