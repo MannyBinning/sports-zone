@@ -8,6 +8,7 @@
 - [Views and Features](#views-and-features)
 - [Deployment](#deployment)
 - [Testing](#testing)
+- [Resubmission](#resubmission)
 - [Technologies and Tools Used](#technologies-and-tools-used)
 - [Acknowledgements](#acknowledgements)
 
@@ -281,8 +282,8 @@ All the code for this website was validated:
 - Python Validation Tested through [PEP8](http://pep8online.com/) 
 
 ### Navigation 
- - Navigation contains five dropdown links, all working fine including the links within each dropdown menu. 
- - Search Bar functionality has been tested and brings up relevant items searched for. 
+ - Navigation contains six dropdown links, all working fine including the links within each dropdown menu other than contact us. As clicking on the 'contact us' link will leave the user to message submission page.
+ - Search Bar functionality has been tested and brings up relevant items searched for. Clicking on the search icon next to the search input, customer will be directed to the items searched for. 
  - Account icon included in the navigation drops down links including Register, log in if the user isn't logged in.
  - If the user is logged in, the dropdown menu shows the Profile link and logout. 
  - If the user is logged in as admin the drop-down menu also shows the product management link. 
@@ -381,8 +382,12 @@ The previous submission's feedback back mentioned the similarities the site had 
 </p>
 Footer of the page includes a simple list of social links which lead the user to the page they'd wish to visit. 
 
+<hr>
+
 ### Images
-For a website the quality is one of the most important factors, previous submission was lacking quality of the images. As the images on a site reflects the quality of the site as well therefore all the images in the site have been updated. 
+For a website the quality is one of the most important factors, previous submission was lacking quality of the images. As the images on a site reflect the quality of the site, therefore, all the images on the site have been updated. The home page image has been selected from [UNSPLASH](https://unsplash.com/) and the product images were researched on different sites keeping the quality as a main priority. 
+
+<div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>
 
 # Technologies and Tools Used
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
